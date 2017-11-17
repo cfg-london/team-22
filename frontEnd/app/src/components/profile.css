@@ -1,0 +1,19 @@
+.profile {
+  position: relative;
+  width: 15em;
+  margin: 40px;
+  padding: 10px;
+  background-color: lightgray;
+  display: block;
+}
+
+.profilePic {
+  width: 100%;
+  height: 15em;
+}
+
+.motivation {
+  font-size: 0.8em;
+  text-align: justify;
+  width: 100%;
+}
