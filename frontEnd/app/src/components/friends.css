@@ -1,0 +1,13 @@
+.Friends {
+  width: 15em;
+  position: relative;
+  margin: 20px 40px;
+  padding: 10px;
+  background-color: lightgray;
+  display: block;
+}
+
+.friendImage {
+  width: 2em;
+  height: 2em;
+}
