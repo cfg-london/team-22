@@ -1,5 +1,3 @@
-# Nobel Book - Facebook 
-
 ## knowyourmeme.com - 
 * Paragraphs are max 5 lines
 * Lots of images (memes)
@@ -19,7 +17,8 @@
 ## reddit.com
 * Upvotes (karma, followers, likes)
 
-#Nobel Prize Site:
+# Nobel Book - Facebook 
+## Nobel Prize Site:
 * Facts
 	* Basic info (DOB, Citizenship, etc..)
 	* Abstract of work
