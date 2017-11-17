@@ -3,7 +3,7 @@ import './App.css';
 
 //Components
 import Profile from './components/profile';
-import Friends from './components/friends';
+// import Friends from './components/friends';
 
 class App extends Component {
   render() {
