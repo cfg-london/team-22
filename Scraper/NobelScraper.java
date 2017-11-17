@@ -13,8 +13,7 @@ public class NobelScraper {
     private void scrape(String subject, int year, String lastName) throws Exception {
         final String[] sections = {
                 "bio",
-                "lecture",
-                "facts"
+                "lecture"
         };
         URL url;
 
@@ -27,14 +26,26 @@ public class NobelScraper {
                     break;
                 }
             }
-            PrintWriter writer = new PrintWriter(lastName + "-" + section + ".html");
+            PrintWriter writer = new PrintWriter("Scraper/out/" + lastName + "-" + section + ".html");
             while ((line = reader.readLine()) != null) {
-                if (line.startsWith("  <h2>")) {
+                if (section.equals("lecture") && line.startsWith("  <h2>")) {
+                    writer.println(line);
+                    break;
+                }
+                if (section.equals("bio") && line.contains("Biography")) {
+                    writer.println(line);
+                    break;
+                }
+                if (section.equals("facts") && line.contains("Facts")) {
                     writer.println(line);
                     break;
                 }
             }
             while ((line = reader.readLine()) != null) {
+                if (line.equals("    <!-- Blue band START -->")) {
+                    while (!(reader.readLine()).equals("<!-- Blue band END -->"));
+                    line = reader.readLine();
+                }
                 if (!line.equals("  <!--eri-no-index-->")) {
                     writer.println(line);
                 } else {
