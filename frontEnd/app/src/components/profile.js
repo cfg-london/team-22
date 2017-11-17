@@ -20,7 +20,7 @@ class Profile extends Component {
       } else {
         let output = s.slice(0,300)
         return (
-          <p> {output} <a onClick={this.changeFlag()}>Learn more</a> </p>
+          <p> {output} <a className="learnMore" onClick={ e => this.changeFlag(e) }>Learn more</a> </p>
         )
       }
     } else {
@@ -29,12 +29,8 @@ class Profile extends Component {
     }
   }
 
-  changeFlag(){
-    if(this.wantMore){
-      this.setState({wantMore: false})
-    } else {
-      this.setState({wantMore: true});
-    }
+  changeFlag() {
+   this.setState({ wantMore: !this.state.wantMore });
   }
 
   render(){
