@@ -1,4 +1,5 @@
-function controlFlow(person) {
+function controlFlow() {
+    var person = getParameterByName("name");
     addCard("bio");
     addText(person + "-bio.html", "#bio");
     addCard("lectureText")
@@ -6,7 +7,7 @@ function controlFlow(person) {
 }
 
 function addCard(tagId) {
-    $("#container").append(" <div class=\"card\">\n" +
+    $("#cardContainer").append(" <div class=\"card\">\n" +
         "            <div id=\"lecture\" class=\"card-content\">\n" +
         "              <p id=\"" + tagId + "\"></p>\n" +
         "            </div>\n" +
@@ -23,6 +24,16 @@ function addText(filename, tagId) {
     $.get("http://localhost:1235/" + filename, function(data){
         $(tagId).html(data);
     });
+}
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
 
