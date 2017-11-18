@@ -1,6 +1,6 @@
 function controlFlow() {
     var person = getParameterByName("name");
-    getBio("king");
+    console.log(getBio(person));
     addCard("bio");
     addText(person + "-bio.html", "#bio");
     addCard("lectureText")
@@ -31,11 +31,21 @@ function getBio(name) {
         var cleanLastName = lastName.normalize("NFKD").replace(/[^ a-z]+/g, "");
         var lastNameArray = cleanLastName.split(" ");
         var finalLastName = lastNameArray[lastNameArray.length - 1];
+        // console.log(finalLastName);
+        // console.log(name);
         if (name !== finalLastName) {
             continue;
         }
         // foundem
-
+        var prize = byId.prizes[0];
+        return {
+            "born" : byId.born.substring(0, 4),
+            "died" : byId.died.substring(0, 4),
+            "bornCountry" : byId.bornCountry,
+            "prizeYear" : prize.year,
+            "category" : prize.category,
+            "motivation" : prize.motivation
+        }
     }
 
 }
