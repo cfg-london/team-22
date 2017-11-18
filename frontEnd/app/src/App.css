@@ -3,8 +3,8 @@
 }
 
 .App-logo {
-  width: 45%;
-  padding: 1.5em 0em;
+  width: 80%;
+  padding-top: 10pt;
 }
 
 .App-header {
@@ -16,4 +16,8 @@
 
 .App-intro {
   font-size: large;
+}
+
+.colour-blue {
+  background-color: blue;
 }

@@ -13,7 +13,6 @@ class Profile extends Component {
 
   renderText(s){
     if(s.length > 380){
-      console.log("LONG ASS STRING");
       if(this.state.wantMore){
         return s;
       } else {
@@ -23,7 +22,6 @@ class Profile extends Component {
         )
       }
     } else {
-      console.log("SHORT ASS STRING");
       return (<p> {s} </p>);
     }
   }
