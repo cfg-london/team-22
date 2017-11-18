@@ -1,13 +1,32 @@
+import com.google.gson.*;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
+import java.util.Iterator;
 
 public class NobelScraper {
 
     public static void main (String[] args) throws Exception {
         NobelScraper scraper = new NobelScraper();
-        scraper.scrape("peace", 1964, "king");
+
+        JsonElement jsonElement = new JsonParser().parse(new InputStreamReader(new URL("http://api.nobelprize.org/v1/laureate.json").openStream()));
+        JsonObject jsonObject = jsonElement.getAsJsonObject();
+        JsonArray laureates = jsonObject.get("laureates").getAsJsonArray();
+        Iterator laureatesIterator = laureates.iterator();
+        while (laureatesIterator.hasNext()) {
+            JsonElement laureate = (JsonElement) laureatesIterator.next();
+            JsonObject laureateObject = laureate.getAsJsonObject();
+            JsonObject prize = laureateObject.get("prizes").getAsJsonArray().get(0).getAsJsonObject();
+            try {
+                scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), org.apache.commons.lang3.StringUtils.stripAccents(laureateObject.get("surname").getAsString().toLowerCase()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+
+
     }
 
     private void scrape(String subject, int year, String lastName) throws Exception {
