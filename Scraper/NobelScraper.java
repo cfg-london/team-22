@@ -1,8 +1,4 @@
 import com.google.gson.*;
-import com.google.gson.stream.JsonReader;
-import com.oracle.javafx.jmx.json.JSONReader;
-import com.sun.tools.javac.util.StringUtils;
-import org.apa
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -23,7 +19,11 @@ public class NobelScraper {
             JsonElement laureate = (JsonElement) laureatesIterator.next();
             JsonObject laureateObject = laureate.getAsJsonObject();
             JsonObject prize = laureateObject.get("prizes").getAsJsonArray().get(0).getAsJsonObject();
-            scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), com.sun.deploy.util.StringUtils.laureateObject.get("surname").getAsString().toLowerCase());
+            try {
+                scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), org.apache.commons.lang3.StringUtils.stripAccents(laureateObject.get("surname").getAsString().toLowerCase()));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
 
 
