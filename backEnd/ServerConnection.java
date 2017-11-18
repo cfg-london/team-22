@@ -1,4 +1,3 @@
-package restClient;
 
 import java.io.*;
 import java.net.Socket;
@@ -34,15 +33,15 @@ public class ServerConnection implements Runnable {
     private void interpretLine(String message) throws IOException {
         String[] components = message.split(" ");
         if (checkGetMessageFormat(components)) {
-            String queryParameter;
-            if (components[1].contains("^/")) {
-                queryParameter = components[1].substring(1, components[1].length());
+            String returnString = "";
+            if (components[1].contains(".html")) {
+                returnString = readFile(components[1]);
+            } else {
+                //json stuff
             }
-
-            ////////////// make query here ////////////////
-            String json = "JP Morgan";
             outToClient.writeBytes(HTTPVersion + " 200 OK\r\n");
-            sendMessage(json);
+            outToClient.writeBytes("Access-Control-Allow-Origin: *\r\n");
+            sendMessage(returnString);
 
         } else {
             outToClient.writeBytes("HTTP/1.0 400 Bad Request\r\n");
@@ -77,5 +76,19 @@ public class ServerConnection implements Runnable {
             System.out.println("File not found.");
         }
         return "";
+    }
+
+    private String readFile(String queryParameter) throws IOException {
+        try {
+            StringBuilder builder = new StringBuilder();
+            BufferedReader reader = new BufferedReader(new FileReader("team-22/Scraper/outLiterature" + queryParameter));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                builder.append(line);
+            }
+            return builder.toString();
+        } catch (FileNotFoundException e) {
+            return "Media type does not exist.";
+        }
     }
 }
