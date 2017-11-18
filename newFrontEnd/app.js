@@ -51,7 +51,7 @@ function addFriends(laureate){
                     name = name.toLowerCase();
                     var friend = getBio(name);
                     var url = "https://www.nobelprize.org/nobel_prizes/" + friend.category + "/laureates/" + friend.prizeYear + "/" + name + "_postcard.jpg";
-                    $("#friends").append("<img class=\"image\" src=\"" +url+ "\" />\n");
+                    $("#friends").append("<div tooltip=\"" + friend.name + "\"tooltip-persistent> <img class=\"image\" src=\"" +url+ "\" /></div>\n");
                 }
                 break;
             }
