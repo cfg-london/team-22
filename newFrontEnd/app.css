@@ -1,3 +1,5 @@
+
+
 #profile-page-header .card-profile-image {
     width: 160px;
     position: absolute;
@@ -17,6 +19,8 @@
   display: flex;
   flex-flow: wrap;
 }
+
+/* Creating a tooltip */
 
 [tooltip]:before {
     /* needed - do not touch */
@@ -44,4 +48,17 @@
 
 [tooltip]:not([tooltip-persistent]):before {
     pointer-events: none;
+}
+
+/* learn more */
+
+.hideContent {
+    overflow: hidden;
+    line-height: 1em;
+    height: 2em;
+}
+
+.showContent {
+    line-height: 1em;
+    height: auto;
 }
