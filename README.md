@@ -1,6 +1,6 @@
 # NobelBook
 ## _The facebook for Nobel Laureates._
-
+## [Presentation](https://docs.google.com/presentation/d/1TCnt7IWUaFaK1b0TLFharIR84SaM8LKgozB_--wMTno/edit?usp=sharing)
 ---
 ## The Goal
 Our objective is to _improve the retainability of the Nobel Prize website_. We solved this through two means: firstly, improving the accessibility 
