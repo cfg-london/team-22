@@ -13,7 +13,7 @@
 //     };
 //
 //     $this.text(linkText);
-// });​
+// });
 
 if (window.File && window.FileReader && window.FileList && window.Blob) {
   var json = JSON.parse('./practiceInputs/Martin-Luther-King.json');
