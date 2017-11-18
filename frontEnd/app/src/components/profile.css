@@ -12,6 +12,10 @@
   height: 15em;
 }
 
+.learnMore:hover {
+  color: blue;
+}
+
 .motivation {
   font-size: 0.8em;
   text-align: justify;
