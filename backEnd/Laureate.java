@@ -39,8 +39,10 @@ public class Laureate {
             if (i == amount) {
                 break;
             }
-            bestConnections.add(entry.getKey());
-            i++;
+            if (!entry.getKey().equals(getName())) {
+                bestConnections.add(entry.getKey());
+                i++;
+            }
         }
         return bestConnections;
     }
