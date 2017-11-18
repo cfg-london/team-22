@@ -68,7 +68,7 @@ public class ServerConnection implements Runnable {
             BufferedReader fileReader = new BufferedReader(new FileReader("text.txt"));
             String jsonString = "";
             while ((jsonString = fileReader.readLine()) != null) {
-                if (jsonString.contains("{name: " + identifier)) {
+                if (jsonString.contains("{surname: " + identifier)) {
                     return jsonString;
                 }
             }
