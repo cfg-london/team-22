@@ -34,10 +34,8 @@ public class ServerConnection implements Runnable {
         String[] components = message.split(" ");
         if (checkGetMessageFormat(components)) {
             String returnString = "";
-            if (components[1].contains(".html") || components[1].contains(".jpg")) {
+            if (components[1].contains(".html") || components[1].contains(".jpg") || components[1].contains(".json")) {
                 returnString = readFile(components[1]);
-            } else {
-                //json stuff
             }
             outToClient.writeBytes(HTTPVersion + " 200 OK\r\n");
             outToClient.writeBytes("Access-Control-Allow-Origin: *\r\n");
@@ -81,7 +79,7 @@ public class ServerConnection implements Runnable {
     private String readFile(String queryParameter) throws IOException {
         try {
             StringBuilder builder = new StringBuilder();
-            BufferedReader reader = new BufferedReader(new FileReader("team-22/Scraper/out" + queryParameter));
+            BufferedReader reader = new BufferedReader(new FileReader("team-22/Scraper/outLiterature" + queryParameter));
             String line;
             while ((line = reader.readLine()) != null) {
                 builder.append(line);
