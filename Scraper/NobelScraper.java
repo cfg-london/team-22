@@ -1,13 +1,32 @@
+import com.google.gson.*;
+import com.google.gson.stream.JsonReader;
+import com.oracle.javafx.jmx.json.JSONReader;
+import com.sun.tools.javac.util.StringUtils;
+import org.apa
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.URL;
+import java.util.Iterator;
 
 public class NobelScraper {
 
     public static void main (String[] args) throws Exception {
         NobelScraper scraper = new NobelScraper();
-        scraper.scrape("peace", 1964, "king");
+
+        JsonElement jsonElement = new JsonParser().parse(new InputStreamReader(new URL("http://api.nobelprize.org/v1/laureate.json").openStream()));
+        JsonObject jsonObject = jsonElement.getAsJsonObject();
+        JsonArray laureates = jsonObject.get("laureates").getAsJsonArray();
+        Iterator laureatesIterator = laureates.iterator();
+        while (laureatesIterator.hasNext()) {
+            JsonElement laureate = (JsonElement) laureatesIterator.next();
+            JsonObject laureateObject = laureate.getAsJsonObject();
+            JsonObject prize = laureateObject.get("prizes").getAsJsonArray().get(0).getAsJsonObject();
+            scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), com.sun.deploy.util.StringUtils.laureateObject.get("surname").getAsString().toLowerCase());
+        }
+
+
     }
 
     private void scrape(String subject, int year, String lastName) throws Exception {
