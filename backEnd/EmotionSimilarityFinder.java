@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 public class EmotionSimilarityFinder {
@@ -48,7 +50,6 @@ public class EmotionSimilarityFinder {
         } catch (IOException e) {
         }
 
-        //names = removeDuplicates(names);
         System.out.println(Arrays.toString(names.toArray()));
 
         int j = 0;
@@ -62,25 +63,26 @@ public class EmotionSimilarityFinder {
                     break;
                 }
         }
-        Iterator it = allLaureats.entrySet().iterator();
-        
-        while (it.hasNext()) {
-            Map.Entry pair = (Map.Entry)it.next();
-            Emotion v = (Emotion)pair.getValue();
-            System.out.print(v.anger + " " + v.disgust + " " + v.fear + " " + v.joy + " " + v.sadness + " ");
-            System.out.println(pair.getKey() );
 
-        }
-        return;
-    }
 
-    private static ArrayList<String> removeDuplicates(ArrayList<String> list) {
-        ArrayList<String> newList = new ArrayList<>();
-        for (String s : list) {
-            if (!newList.contains(s)) {
-                newList.add(s);
+        List<Laureate> laureates = new ArrayList<>(allLaureats.size());
+        for (Map.Entry<String, Emotion> entry : allLaureats.entrySet()) {
+            HashMap<String, Double> connections = new HashMap<>();
+            for (Map.Entry<String, Emotion> other : allLaureats.entrySet()) {
+                double connection = 0;
+                connection += Math.abs(entry.getValue().anger - other.getValue().anger);
+                connection += Math.abs(entry.getValue().disgust - other.getValue().disgust);
+                connection += Math.abs(entry.getValue().fear - other.getValue().fear);
+                connection += Math.abs(entry.getValue().joy - other.getValue().joy);
+                connection += Math.abs(entry.getValue().sadness - other.getValue().sadness);
+                connections.put(other.getKey(), connection);
             }
+            laureates.add(new Laureate(entry.getKey(), entry.getValue(), connections));
         }
-        return newList;
+
+        for (Laureate laureate : laureates) {
+            System.out.println(laureate.getName());
+            System.out.println(Arrays.toString(laureate.getBestConnections(10).toArray()));
+        }
     }
 }
