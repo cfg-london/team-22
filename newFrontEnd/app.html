@@ -1,77 +1,98 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Compiled and minified CSS -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-        <!-- Compiled and minified JavaScript -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<head>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-        <!-- Icons -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Style Sheet -->
+  <link rel="stylesheet" href="app.css">
 
-        <!-- Ajax -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
-        <!-- Connected JS File -->
-        <script src="app.js"></script>
-    </head>
+  <!-- Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <body>
+  <!-- Ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-        <!-- NAVBAR, don't touch -->
-        <nav>
-            <div class="nav-wrapper blue darken-4">
-                <a href="" class="brand-logo" style="padding-left: 20pt;"><img src="https://www.nobelprize.org/images/logo-nobelprize_org.png" height="30pt"></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html"><i class="material-icons">search</i></a></li>
-                    <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
-                    <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
-                    <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+  <!-- Connected JS File -->
+  <script src="app.js"></script>
+</head>
+
+<body>
+
+  <!-- NAVBAR, don't touch -->
+  <nav>
+    <div class="nav-wrapper blue darken-4">
+      <a href="" class="brand-logo" style="padding-left: 20pt;"><img src="https://www.nobelprize.org/images/logo-nobelprize_org.png" height="30pt"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+        <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+        <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+        <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="row">
+    <div class="col s12">
+      <div class="card">
+          <div id="profile-page-header" class="card-image">
+            <img src="https://www.nobelprize.org/images/front-quotes/for-the-greatest-benefit-splash.jpg" style="filter: brightness(60%)">
+
+            <!-- PICTURE GOES HERE -->
+
+            <span class="card-title">
+              <figure class="card-profile-image">
+                  <img src="../frontEnd/app/src/resources/mlk-resources/king_photo_01.jpg" alt="profile image" class="circle z-depth-2 responsive-img activator">
+              </figure>
+            </span>
+          </div>
+          <div>
+            <nav class="card-content" style="background-color: darkblue;">
+              <div class="col s8 push-s4">
+                <ul class="tabs tabs-transparent">
+                  <li class="tab"><a class="active" href="#test1">Timeline</a></li>
+                  <li class="tab"><a href="#test2">Photos</a></li>
+                  <li class="tab"><a href="#test3">Videos</a></li>
+                  <li class="tab"><a href="#test4">About</a></li>
                 </ul>
+              </div>
+              <br>
+              <br>
+            </nav>
+          </div>
+            <div class="col s4 m4">
+              <div class="card-panel white">
+                <span class="grey-text">
+                  This is going to be a hardcoded bio summary.
+                </span>
+              </div>
             </div>
-        </nav>
-
-        <div class="row">
-
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="https://www.nobelprize.org/images/front-quotes/for-the-greatest-benefit-splash.jpg" style="filter: brightness(60%)">
-
-                        <!-- PICTURE GOES HERE -->
-
-                        <span class="card-title">Albert Einstein</span>
-                    </div>
-                    <div>
-                    <nav class="card-content">
-
-                        <div class="col s8 push-s4">
-
-
-                                <ul class="tabs tabs-transparent">
-                                    <li class="tab"><a class="active" href="#test1">Timeline</a></li>
-                                    <li class="tab"><a href="#test2">Photos</a></li>
-                                    <li class="tab"><a href="#test3">Videos</a></li>
-                                    <li class="tab"><a href="#test4">About</a></li>
-                                </ul>
-
-
-                        </div>
-                        <br>
-                        <br>
-                    </nav>
-                    </div>
-                    </div>
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/sample-1.jpg">
                 </div>
+                <div class="card-content">
+                  <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                  <i class="material-icons">comment</i>
+                  <i class="material-icons">thumb_up</i>
+                  <i class="material-icons">share</i>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
 
-            </div>
-
-        </div>
-
-        <script>
-            $(document).ready(() => test());
-        </script>
-    </body>
+  </div>
+  <script>
+    $(document).ready(() => test());
+  </script>
+</body>
 
 </html>
