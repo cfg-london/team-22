@@ -10,8 +10,9 @@ function controlFlow() {
 
 function addPic(name) {
     var info = getBio(name);
-    var url = "https://www.nobelprize.org/nobel_prize/" + info.category + "/laureates/" + info.prizeYear + "/" + name + "_postcard.jpg";
-    $("#profilPic").set("src", url);
+    var url = "https://www.nobelprize.org/nobel_prizes/" + info.category + "/laureates/" + info.prizeYear + "/" + name + "_postcard.jpg";
+    console.log(url);
+    $("#profilPic").attr("src", url);
 }
 
 function addCard(tagId) {
