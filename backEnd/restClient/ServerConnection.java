@@ -3,7 +3,6 @@ package restClient;
 import java.io.*;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
-import java.util.IllegalFormatException;
 
 public class ServerConnection implements Runnable {
 
@@ -66,5 +65,20 @@ public class ServerConnection implements Runnable {
     private void sendMessage(String json) throws IOException {
         outToClient.writeBytes("\r\n");
         outToClient.writeBytes(json);
+    }
+
+    private String getJSON(String identifier) throws IOException {
+        try {
+            BufferedReader fileReader = new BufferedReader(new FileReader("text.txt"));
+            String jsonString = "";
+            while ((jsonString = fileReader.readLine()) != null) {
+                if (jsonString.contains("{name: " + identifier)) {
+                    return jsonString;
+                }
+            }
+            return "";
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found.");
+        }
     }
 }
