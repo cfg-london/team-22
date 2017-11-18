@@ -65,13 +65,13 @@ A: A bunch of stuff. Cheeck the website for details.
 A: Link data. 
 
 ### Q: How do you keep data format updatability?
-A: I dunno. Ask the other dude that codes and shit. 
+A: I dunno. Ask the other dude that codes and stuff. 
 
 ### Q: What kind of games?
 A: Educational games - 'Blood typing game'. A lot of other sites drag a lot of traffic to those games (used in school).
 
 ### Q: How much text-based and other multimedia data do you have?
-A: A shit ton of videos. Podcasts (maybe in videos). Each laureate has a nobel lecture. Biographies. Outside articles. They have people write and explain the discoveries. Most videos are transcribed.
+A: A stuff ton of videos. Podcasts (maybe in videos). Each laureate has a nobel lecture. Biographies. Outside articles. They have people write and explain the discoveries. Most videos are transcribed.
 
 ### Q: What don't you want?
 A: Make an app that answers the question: "Ask the question which laureate are you?". That sucks. Don't do that. **We don't just want a geography based solution**. Nationality can be affiliated with a specific university or a citizen in another country. How do we link them?
@@ -95,13 +95,13 @@ A: "Do I have to choose?". We'd like to improve the experience of those existing
 A: We don't have stats. It just doesn't seem to be inviting. 50% of users use internal search.
 
 ### Q: What other analytical data are you looking for?
-A: Measuring engagement on the site. We have numbers, but no conversion rates and shit. How do we define "engangement"? But "engagement rate" is something that we really want to improve on. Poll and quizes are pretty popular. Announcements are a big peak in user-rate (October).
+A: Measuring engagement on the site. We have numbers, but no conversion rates and stuff. How do we define "engangement"? But "engagement rate" is something that we really want to improve on. Poll and quizes are pretty popular. Announcements are a big peak in user-rate (October).
 
 ### Q: Do you want the new site to have better stats?
-A: Yeah sure, have the rates outlined above. So yeah no shit. 
+A: Yeah sure, have the rates outlined above. So yeah no stuff. 
 
 ### Q: Tell us about your new site.
-A: We're in wireframing. So... no new information. Oh shit, we're at an article level. That's all we're at. LMAO. Looking at goals and target groups. We want: long scroll, modular components, more flexible in moving content, section for events, and new brand design. A lot of focus is on the archive (trending), everything else not so much traffic. WE WANT MOAR PHOTOS AND STUFF! 
+A: We're in wireframing. So... no new information. Oh stuff, we're at an article level. That's all we're at. LMAO. Looking at goals and target groups. We want: long scroll, modular components, more flexible in moving content, section for events, and new brand design. A lot of focus is on the archive (trending), everything else not so much traffic. WE WANT MOAR PHOTOS AND STUFF! 
 
 ### Q: ????
 A: Certain laureates have a lot more traffic then others. Thus focusing some content on them. Women laureates is a good point. A lot of focus there.
@@ -109,7 +109,7 @@ A: Certain laureates have a lot more traffic then others. Thus focusing some con
 ### Q: Are there any interactive designs that keep them longer during peak periods?
 A: No. Plan for no announcements.
 
-## SECRET STUFF (hehe)
+## SECRET STUFF
 Theories for what other teams projects are:
 1. Improve subscription of newsletter subscription.
 2. Video manipulation
