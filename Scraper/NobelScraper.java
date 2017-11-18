@@ -26,9 +26,7 @@ public class NobelScraper {
             String[] splitName = org.apache.commons.lang3.StringUtils.stripAccents(laureateObject.get("surname").getAsString().toLowerCase()).split(" ");
             String name = splitName[splitName.length - 1].replaceAll("[^A-Za-z]+", "");
             try {
-                if (prize.get("category").getAsString().equals("literature")) {
                     scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), name);
-                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -39,7 +37,6 @@ public class NobelScraper {
 
     private void scrape(String subject, int year, String lastName) throws Exception {
         final String[] sections = {
-                "bio",
                 "lecture"
         };
         URL url;
@@ -53,7 +50,7 @@ public class NobelScraper {
                     break;
                 }
             }
-            PrintWriter writer = new PrintWriter("Scraper/outLiterature/" + lastName + "-" + section + ".html");
+            PrintWriter writer = new PrintWriter("Scraper/out/" + lastName + "-" + section + ".html");
             while ((line = reader.readLine()) != null) {
                 if (section.equals("lecture") && line.contains("<h2>") || line.contains("<h1>")) {
                     writer.println(line);
