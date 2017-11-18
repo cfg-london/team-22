@@ -1,4 +1,5 @@
 import com.google.gson.*;
+import org.apache.commons.lang3.StringUtils;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -19,8 +20,10 @@ public class NobelScraper {
             JsonElement laureate = (JsonElement) laureatesIterator.next();
             JsonObject laureateObject = laureate.getAsJsonObject();
             JsonObject prize = laureateObject.get("prizes").getAsJsonArray().get(0).getAsJsonObject();
+            String[] splitName = org.apache.commons.lang3.StringUtils.stripAccents(laureateObject.get("surname").getAsString().toLowerCase()).split(" ");
+            String name = splitName[splitName.length - 1].replaceAll("[^A-Za-z]+", "");
             try {
-                scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), org.apache.commons.lang3.StringUtils.stripAccents(laureateObject.get("surname").getAsString().toLowerCase()));
+                scraper.scrape(prize.get("category").getAsString(), prize.get("year").getAsInt(), name);
             } catch (Exception e) {
                 e.printStackTrace();
             }
