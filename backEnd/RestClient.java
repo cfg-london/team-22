@@ -1,11 +1,5 @@
-package restClient;
 
-import com.sun.javaws.exceptions.InvalidArgumentException;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.*;
 import java.security.InvalidParameterException;
 
@@ -24,6 +18,7 @@ public class RestClient {
             System.out.println("Usage: java RestClient <host> <ip>");
         } catch (IOException e) {
             System.out.println("Unable to open server socket.");
+            e.printStackTrace();
         }
     }
 
@@ -35,6 +30,4 @@ public class RestClient {
             new Thread(new ServerConnection(connectionSocket)).start();
         }
     }
-
-
 }

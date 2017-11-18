@@ -1,4 +1,3 @@
-package restClient;
 
 import java.io.*;
 import java.net.Socket;
@@ -37,12 +36,21 @@ public class ServerConnection implements Runnable {
             String queryParameter;
             if (components[1].contains("^/")) {
                 queryParameter = components[1].substring(1, components[1].length());
+            } else {
+                queryParameter = components[1];
             }
+            String returnString = "";
+            if (queryParameter.contains(".html")) {
+                readFile(queryParameter);
+            } else {
 
-            ////////////// make query here ////////////////
-            String json = "Code for Good";
-            outToClient.writeBytes(HTTPVersion + " 200 OK\r\n");
-            sendMessage(json);
+
+                ////json struff
+
+
+                outToClient.writeBytes(HTTPVersion + " 200 OK\r\n");
+                sendMessage(returnString);
+            }
 
         } else {
             outToClient.writeBytes("HTTP/1.0 400 Bad Request\r\n");
@@ -77,5 +85,20 @@ public class ServerConnection implements Runnable {
             System.out.println("File not found.");
         }
         return "";
+    }
+
+    private void readFile(String queryParameter) throws IOException {
+        try {
+            StringBuilder builder = new StringBuilder();
+            BufferedReader reader = new BufferedReader(new FileReader("agnon-bio.html"));
+            String line;
+            while ((line = reader.readLine()) != null) {
+                builder.append(line);
+            }
+            System.out.println(builder.toString());
+            outToClient.writeBytes(builder.toString());
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found.");
+        }
     }
 }

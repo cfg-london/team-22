@@ -1,5 +1,16 @@
+function readIn(file) {
+    $.get("localhost:1235", function(data, status){
+        alert(data);
+    });
+}
+
+var element = document.createElement("span");
+var text = document.createTextNode(readIn("../Scraper/outLiterature/agnon-bio.html"));
+element.appendChild(text);
+$("#bio").append(element);
+
 let test = () => {
-    $.getJSON( "http://127.0.0.1:1234", function( data ) {
+    $.getJSON( "http://127.0.0.1:1235", function( data ) {
         alert("hi")
         var items = [];
         $.each( data, function( key, val ) {
@@ -12,3 +23,6 @@ let test = () => {
         }).appendTo( "body" );
     });
 }
+
+
+
