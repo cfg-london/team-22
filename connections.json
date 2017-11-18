@@ -1,370 +1,370 @@
 [
   {
     "surname": "Jensen",
-    "connections": ["Jensen", "Tagore", "Hauptmann", "Eucken", "Churchill"]
+    "connections": ["Tagore", "Hauptmann", "Eucken", "Churchill", "Sholokhov"]
   },
   {
     "surname": "Seferis",
-    "connections": ["Seferis", "Johnson", "Neruda", "Eucken", "Jensen"]
+    "connections": ["Johnson", "Neruda", "Eucken", "Jensen", "Hauptmann"]
   },
   {
     "surname": "Pasternak",
-    "connections": ["Pasternak", "Karlfeldt", "Tagore", "Quasimodo", "Fo"]
+    "connections": ["Karlfeldt", "Tagore", "Quasimodo", "Fo", "Gard"]
   },
   {
     "surname": "Singer",
-    "connections": ["Singer", "Hauptmann", "Hesse", "Mann", "Quasimodo"]
+    "connections": ["Hauptmann", "Hesse", "Mann", "Quasimodo", "Simon"]
   },
   {
     "surname": "Agnon",
-    "connections": ["Agnon", "Buck", "Montale", "Bergson", "Deledda"]
+    "connections": ["Buck", "Montale", "Bergson", "Deledda", "Lagerkvist"]
   },
   {
     "surname": "Buck",
-    "connections": ["Buck", "Bellow", "Agnon", "France", "Mahfouz"]
+    "connections": ["Bellow", "Agnon", "France", "Mahfouz", "Gordimer"]
   },
   {
     "surname": "Spitteler",
-    "connections": ["Spitteler", "Mauriac", "Johnson", "Oe", "Reymont"]
+    "connections": ["Mauriac", "Johnson", "Oe", "Reymont", "Canetti"]
   },
   {
     "surname": "Golding",
-    "connections": ["Golding", "Mann", "Heaney", "Fo", "Faulkner"]
+    "connections": ["Mann", "Heaney", "Fo", "Faulkner", "Mistral"]
   },
   {
     "surname": "Pamuk",
-    "connections": ["Pamuk", "Yan", "Saramago", "Coetzee", "Naipaul"]
+    "connections": ["Yan", "Saramago", "Coetzee", "Naipaul", "Alexievich"]
   },
   {
     "surname": "Alexievich",
-    "connections": ["Alexievich", "Coetzee", "Naipaul", "Pamuk", "White"]
+    "connections": ["Coetzee", "Naipaul", "Pamuk", "White", "Yan"]
   },
   {
     "surname": "Paz",
-    "connections": ["Paz", "Mahfouz", "Bergson", "Sienkiewicz", "France"]
+    "connections": ["Mahfouz", "Bergson", "Sienkiewicz", "France", "Buck"]
   },
   {
     "surname": "Gordimer",
-    "connections": ["Gordimer", "Carducci", "France", "Laxness", "Elytis"]
+    "connections": ["Carducci", "France", "Laxness", "Elytis", "Sienkiewicz"]
   },
   {
     "surname": "Neruda",
-    "connections": ["Neruda", "Gard", "Heaney", "Bunin", "Undset"]
+    "connections": ["Gard", "Heaney", "Bunin", "Undset", "Sachs"]
   },
   {
     "surname": "Grass",
-    "connections": ["Grass", "Munro", "Soyinka", "Lagerkvist", "Eliot"]
+    "connections": ["Munro", "Soyinka", "Lagerkvist", "Eliot", "Gide"]
   },
   {
     "surname": "Gard",
-    "connections": ["Gard", "Johnson", "Neruda", "Bunin", "Sachs"]
+    "connections": ["Johnson", "Neruda", "Bunin", "Sachs", "Gjellerup"]
   },
   {
     "surname": "Coetzee",
-    "connections": ["Coetzee", "Naipaul", "Pamuk", "Alexievich", "Yan"]
+    "connections": ["Naipaul", "Pamuk", "Alexievich", "Yan", "Saramago"]
   },
   {
     "surname": "Seifert",
-    "connections": ["Seifert", "Hemingway", "Kawabata", "Steinbeck", "Mauriac"]
+    "connections": ["Hemingway", "Kawabata", "Steinbeck", "Mauriac", "Russell"]
   },
   {
     "surname": "Munro",
-    "connections": ["Munro", "Saramago", "Naipaul", "Pamuk", "Grass"]
+    "connections": ["Saramago", "Naipaul", "Pamuk", "Grass", "Yan"]
   },
   {
     "surname": "Bergson",
-    "connections": ["Bergson", "Deledda", "France", "Mahfouz", "Sienkiewicz"]
+    "connections": ["Deledda", "France", "Mahfouz", "Sienkiewicz", "Lagerkvist"]
   },
   {
     "surname": "Canetti",
-    "connections": ["Canetti", "Hamsun", "Spitteler", "Oe", "Lessing"]
+    "connections": ["Hamsun", "Spitteler", "Oe", "Lessing", "Mauriac"]
   },
   {
     "surname": "Brodsky",
-    "connections": ["Brodsky", "Perse", "Szymborska", "Maeterlinck", "Kipling"]
+    "connections": ["Perse", "Szymborska", "Maeterlinck", "Kipling", "Gide"]
   },
   {
     "surname": "Simon",
-    "connections": ["Simon", "Heaney", "Milosz", "Sachs", "Golding"]
+    "connections": ["Heaney", "Milosz", "Sachs", "Golding", "Hesse"]
   },
   {
     "surname": "Naipaul",
-    "connections": ["Naipaul", "Coetzee", "Pamuk", "Alexievich", "Saramago"]
+    "connections": ["Coetzee", "Pamuk", "Alexievich", "Saramago", "Yan"]
   },
   {
     "surname": "Mistral",
-    "connections": ["Mistral", "Heyse", "Golding", "Gard", "Milosz"]
+    "connections": ["Heyse", "Golding", "Gard", "Milosz", "Pirandello"]
   },
   {
     "surname": "Bunin",
-    "connections": ["Bunin", "Sachs", "Reymont", "Gard", "Hesse"]
+    "connections": ["Sachs", "Reymont", "Gard", "Hesse", "Neruda"]
   },
   {
     "surname": "Eliot",
-    "connections": ["Eliot", "Soyinka", "Gide", "Perse", "Andric"]
+    "connections": ["Soyinka", "Gide", "Perse", "Andric", "Camus"]
   },
   {
     "surname": "Perse",
-    "connections": ["Perse", "Brodsky", "Gide", "Camus", "Andric"]
+    "connections": ["Brodsky", "Gide", "Camus", "Andric", "Soyinka"]
   },
   {
     "surname": "Reymont",
-    "connections": ["Reymont", "Bunin", "Lessing", "Sachs", "Oe"]
+    "connections": ["Bunin", "Lessing", "Sachs", "Oe", "Undset"]
   },
   {
     "surname": "Faulkner",
-    "connections": ["Faulkner", "Asturias", "Golding", "Mann", "Mauriac"]
+    "connections": ["Asturias", "Golding", "Mann", "Mauriac", "Heaney"]
   },
   {
     "surname": "Gide",
-    "connections": ["Gide", "Soyinka", "Perse", "Sartre", "Brodsky"]
+    "connections": ["Soyinka", "Perse", "Sartre", "Brodsky", "Camus"]
   },
   {
     "surname": "Elytis",
-    "connections": ["Elytis", "Laxness", "Bellow", "Gordimer", "Deledda"]
+    "connections": ["Laxness", "Bellow", "Gordimer", "Deledda", "France"]
   },
   {
     "surname": "Sienkiewicz",
-    "connections": ["Sienkiewicz", "France", "Maeterlinck", "Deledda", "Bergson"]
+    "connections": ["France", "Maeterlinck", "Deledda", "Bergson", "Kipling"]
   },
   {
     "surname": "Benavente",
-    "connections": ["Benavente", "Shaw", "Hauptmann", "Quasimodo", "Singer"]
+    "connections": ["Shaw", "Hauptmann", "Quasimodo", "Singer", "Milosz"]
   },
   {
     "surname": "Heaney",
-    "connections": ["Heaney", "Mann", "Milosz", "Golding", "Neruda"]
+    "connections": ["Mann", "Milosz", "Golding", "Neruda", "Simon"]
   },
   {
     "surname": "Bellow",
-    "connections": ["Bellow", "Buck", "Elytis", "France", "Gordimer"]
+    "connections": ["Buck", "Elytis", "France", "Gordimer", "Mahfouz"]
   },
   {
     "surname": "Hauptmann",
-    "connections": ["Hauptmann", "Quasimodo", "Hesse", "Singer", "Bunin"]
+    "connections": ["Quasimodo", "Hesse", "Singer", "Bunin", "Jensen"]
   },
   {
     "surname": "Russell",
-    "connections": ["Russell", "Undset", "Lessing", "Lewis", "Faulkner"]
+    "connections": ["Undset", "Lessing", "Lewis", "Faulkner", "Asturias"]
   },
   {
     "surname": "Gjellerup",
-    "connections": ["Gjellerup", "Gard", "Bunin", "Reymont", "Sachs"]
+    "connections": ["Gard", "Bunin", "Reymont", "Sachs", "Neruda"]
   },
   {
     "surname": "Lessing",
-    "connections": ["Lessing", "Undset", "Asturias", "Reymont", "Mauriac"]
+    "connections": ["Undset", "Asturias", "Reymont", "Mauriac", "Russell"]
   },
   {
     "surname": "Hemingway",
-    "connections": ["Hemingway", "Kawabata", "Asturias", "Mauriac", "Seifert"]
+    "connections": ["Kawabata", "Asturias", "Mauriac", "Seifert", "Oe"]
   },
   {
     "surname": "Mauriac",
-    "connections": ["Mauriac", "Oe", "Spitteler", "Lessing", "Faulkner"]
+    "connections": ["Oe", "Spitteler", "Lessing", "Faulkner", "Undset"]
   },
   {
     "surname": "Sholokhov",
-    "connections": ["Sholokhov", "Churchill", "Jensen", "Tagore", "Singer"]
+    "connections": ["Churchill", "Jensen", "Tagore", "Singer", "Hauptmann"]
   },
   {
     "surname": "Milosz",
-    "connections": ["Milosz", "Hesse", "Heaney", "Sachs", "Quasimodo"]
+    "connections": ["Hesse", "Heaney", "Sachs", "Quasimodo", "Simon"]
   },
   {
     "surname": "Prudhomme",
-    "connections": ["Prudhomme", "Seferis", "Johnson", "Eucken", "Gard"]
+    "connections": ["Seferis", "Johnson", "Eucken", "Gard", "Jensen"]
   },
   {
     "surname": "Eucken",
-    "connections": ["Eucken", "Jensen", "Seferis", "Tagore", "Prudhomme"]
+    "connections": ["Jensen", "Seferis", "Tagore", "Prudhomme", "Gjellerup"]
   },
   {
     "surname": "Hamsun",
-    "connections": ["Hamsun", "Canetti", "Spitteler", "Lessing", "Oe"]
+    "connections": ["Canetti", "Spitteler", "Lessing", "Oe", "Russell"]
   },
   {
     "surname": "Sachs",
-    "connections": ["Sachs", "Bunin", "Milosz", "Hesse", "Gard"]
+    "connections": ["Bunin", "Milosz", "Hesse", "Gard", "Neruda"]
   },
   {
     "surname": "Pirandello",
-    "connections": ["Pirandello", "Mistral", "Faulkner", "Gjellerup", "Mauriac"]
+    "connections": ["Mistral", "Faulkner", "Gjellerup", "Mauriac", "Gard"]
   },
   {
     "surname": "Yan",
-    "connections": ["Yan", "Pamuk", "Saramago", "Coetzee", "Naipaul"]
+    "connections": ["Pamuk", "Saramago", "Coetzee", "Naipaul", "Alexievich"]
   },
   {
     "surname": "Saramago",
-    "connections": ["Saramago", "Pamuk", "Yan", "Munro", "Naipaul"]
+    "connections": ["Pamuk", "Yan", "Munro", "Naipaul", "Coetzee"]
   },
   {
     "surname": "Churchill",
-    "connections": ["Churchill", "Sholokhov", "Mann", "Jensen", "Tagore"]
+    "connections": ["Sholokhov", "Mann", "Jensen", "Tagore", "Fo"]
   },
   {
     "surname": "Walcott",
-    "connections": ["Walcott", "Oe", "Hemingway", "Mauriac", "Simon"]
+    "connections": ["Oe", "Hemingway", "Mauriac", "Simon", "Heaney"]
   },
   {
     "surname": "Martinson",
-    "connections": ["Martinson", "Shaw", "Benavente", "Oe", "Reymont"]
+    "connections": ["Shaw", "Benavente", "Oe", "Reymont", "Sachs"]
   },
   {
     "surname": "Shaw",
-    "connections": ["Shaw", "Benavente", "Martinson", "Singer", "Hesse"]
+    "connections": ["Benavente", "Martinson", "Singer", "Hesse", "Bunin"]
   },
   {
     "surname": "Asturias",
-    "connections": ["Asturias", "Faulkner", "Undset", "Lessing", "Bunin"]
+    "connections": ["Faulkner", "Undset", "Lessing", "Bunin", "Sachs"]
   },
   {
     "surname": "Lagerkvist",
-    "connections": ["Lagerkvist", "Bergson", "Carducci", "Gordimer", "Deledda"]
+    "connections": ["Bergson", "Carducci", "Gordimer", "Deledda", "Agnon"]
   },
   {
     "surname": "Mahfouz",
-    "connections": ["Mahfouz", "Bergson", "France", "Buck", "Bellow"]
+    "connections": ["Bergson", "France", "Buck", "Bellow", "Sienkiewicz"]
   },
   {
     "surname": "Sartre",
-    "connections": ["Sartre", "Camus", "Gide", "Soyinka", "Perse"]
+    "connections": ["Camus", "Gide", "Soyinka", "Perse", "Andric"]
   },
   {
     "surname": "Carducci",
-    "connections": ["Carducci", "Gordimer", "Lagerkvist", "Laxness", "France"]
+    "connections": ["Gordimer", "Lagerkvist", "Laxness", "France", "Bergson"]
   },
   {
     "surname": "Maeterlinck",
-    "connections": ["Maeterlinck", "Sienkiewicz", "Kipling", "France", "Deledda"]
+    "connections": ["Sienkiewicz", "Kipling", "France", "Deledda", "Brodsky"]
   },
   {
     "surname": "Camus",
-    "connections": ["Camus", "Sartre", "Perse", "Soyinka", "Andric"]
+    "connections": ["Sartre", "Perse", "Soyinka", "Andric", "Gide"]
   },
   {
     "surname": "Karlfeldt",
-    "connections": ["Karlfeldt", "Pasternak", "Heaney", "Tagore", "Milosz"]
+    "connections": ["Pasternak", "Heaney", "Tagore", "Milosz", "Quasimodo"]
   },
   {
     "surname": "Mann",
-    "connections": ["Mann", "Heaney", "Golding", "Fo", "Neruda"]
+    "connections": ["Heaney", "Golding", "Fo", "Neruda", "Hesse"]
   },
   {
     "surname": "Soyinka",
-    "connections": ["Soyinka", "Gide", "Perse", "Sartre", "Camus"]
+    "connections": ["Gide", "Perse", "Sartre", "Camus", "Agnon"]
   },
   {
     "surname": "Szymborska",
-    "connections": ["Szymborska", "Brodsky", "Maeterlinck", "Kipling", "Perse"]
+    "connections": ["Brodsky", "Maeterlinck", "Kipling", "Perse", "Deledda"]
   },
   {
     "surname": "Kipling",
-    "connections": ["Kipling", "Maeterlinck", "Sienkiewicz", "Deledda", "Laxness"]
+    "connections": ["Maeterlinck", "Sienkiewicz", "Deledda", "Laxness", "France"]
   },
   {
     "surname": "Rolland",
-    "connections": ["Rolland", "Pinter", "Jelinek", "White", "Coetzee"]
+    "connections": ["Pinter", "Jelinek", "White", "Coetzee", "Modiano"]
   },
   {
     "surname": "Aleixandre",
-    "connections": ["Aleixandre", "Pontoppidan", "Heaney", "Milosz", "Lewis"]
+    "connections": ["Pontoppidan", "Heaney", "Milosz", "Lewis", "Mann"]
   },
   {
     "surname": "France",
-    "connections": ["France", "Sienkiewicz", "Bergson", "Gordimer", "Deledda"]
+    "connections": ["Sienkiewicz", "Bergson", "Gordimer", "Deledda", "Mahfouz"]
   },
   {
     "surname": "Andric",
-    "connections": ["Andric", "Perse", "Camus", "Montale", "Sartre"]
+    "connections": ["Perse", "Camus", "Montale", "Sartre", "Brodsky"]
   },
   {
     "surname": "Yeats",
-    "connections": ["Yeats", "Galsworthy", "Asturias", "Faulkner", "Simon"]
+    "connections": ["Galsworthy", "Asturias", "Faulkner", "Simon", "Undset"]
   },
   {
     "surname": "Steinbeck",
-    "connections": ["Steinbeck", "Kawabata", "Hemingway", "Seifert", "Oe"]
+    "connections": ["Kawabata", "Hemingway", "Seifert", "Oe", "Walcott"]
   },
   {
     "surname": "Johnson",
-    "connections": ["Johnson", "Gard", "Neruda", "Spitteler", "Seferis"]
+    "connections": ["Gard", "Neruda", "Spitteler", "Seferis", "Bunin"]
   },
   {
     "surname": "Deledda",
-    "connections": ["Deledda", "Sienkiewicz", "Bergson", "France", "Laxness"]
+    "connections": ["Sienkiewicz", "Bergson", "France", "Laxness", "Elytis"]
   },
   {
     "surname": "Quasimodo",
-    "connections": ["Quasimodo", "Milosz", "Hauptmann", "Hesse", "Sachs"]
+    "connections": ["Milosz", "Hauptmann", "Hesse", "Sachs", "Singer"]
   },
   {
     "surname": "Kawabata",
-    "connections": ["Kawabata", "Hemingway", "Steinbeck", "Mauriac", "Seifert"]
+    "connections": ["Hemingway", "Steinbeck", "Mauriac", "Seifert", "Oe"]
   },
   {
     "surname": "Modiano",
-    "connections": ["Modiano", "Yan", "Pamuk", "Coetzee", "White"]
+    "connections": ["Yan", "Pamuk", "Coetzee", "White", "Saramago"]
   },
   {
     "surname": "Mommsen",
-    "connections": ["Mommsen", "Aleixandre", "Camus", "Pontoppidan", "Sienkiewicz"]
+    "connections": ["Aleixandre", "Camus", "Pontoppidan", "Sienkiewicz", "Kipling"]
   },
   {
     "surname": "Heyse",
-    "connections": ["Heyse", "Mistral", "Gard", "Fo", "Gjellerup"]
+    "connections": ["Mistral", "Gard", "Fo", "Gjellerup", "Milosz"]
   },
   {
     "surname": "Fo",
-    "connections": ["Fo", "Golding", "Mann", "Heaney", "Gard"]
+    "connections": ["Golding", "Mann", "Heaney", "Gard", "Neruda"]
   },
   {
     "surname": "Hesse",
-    "connections": ["Hesse", "Milosz", "Sachs", "Hauptmann", "Bunin"]
+    "connections": ["Milosz", "Sachs", "Hauptmann", "Bunin", "Quasimodo"]
   },
   {
     "surname": "Pinter",
-    "connections": ["Rolland", "Pinter", "Jelinek", "White", "Coetzee"]
+    "connections": ["Rolland", "Jelinek", "White", "Coetzee", "Modiano"]
   },
   {
     "surname": "White",
-    "connections": ["White", "Rolland", "Pinter", "Jelinek", "Coetzee"]
+    "connections": ["Rolland", "Pinter", "Jelinek", "Coetzee", "Naipaul"]
   },
   {
     "surname": "Laxness",
-    "connections": ["Laxness", "Elytis", "Gordimer", "France", "Deledda"]
+    "connections": ["Elytis", "Gordimer", "France", "Deledda", "Sienkiewicz"]
   },
   {
     "surname": "Jelinek",
-    "connections": ["Rolland", "Pinter", "Jelinek", "White", "Coetzee"]
+    "connections": ["Rolland", "Pinter", "White", "Coetzee", "Modiano"]
   },
   {
     "surname": "Galsworthy",
-    "connections": ["Galsworthy", "Yeats", "Neruda", "Mann", "Undset"]
+    "connections": ["Yeats", "Neruda", "Mann", "Undset", "Lewis"]
   },
   {
     "surname": "Lewis",
-    "connections": ["Lewis", "Undset", "Asturias", "Neruda", "Mann"]
+    "connections": ["Undset", "Asturias", "Neruda", "Mann", "Russell"]
   },
   {
     "surname": "Oe",
-    "connections": ["Oe", "Mauriac", "Bunin", "Reymont", "Asturias"]
+    "connections": ["Mauriac", "Bunin", "Reymont", "Asturias", "Spitteler"]
   },
   {
     "surname": "Tagore",
-    "connections": ["Tagore", "Jensen", "Pasternak", "Karlfeldt", "Quasimodo"]
+    "connections": ["Jensen", "Pasternak", "Karlfeldt", "Quasimodo", "Churchill"]
   },
   {
     "surname": "Montale",
-    "connections": ["Montale", "Agnon", "Andric", "Bergson", "Buck"]
+    "connections": ["Agnon", "Andric", "Bergson", "Buck", "Deledda"]
   },
   {
     "surname": "Undset",
-    "connections": ["Undset", "Lessing", "Lewis", "Asturias", "Neruda"]
+    "connections": ["Lessing", "Lewis", "Asturias", "Neruda", "Bunin"]
   },
   {
     "surname": "Pontoppidan",
-    "connections": ["Pontoppidan", "Aleixandre", "Mommsen", "Seferis", "Churchill"]
+    "connections": ["Aleixandre", "Mommsen", "Seferis", "Churchill", "Lewis"]
   }
 ]
