@@ -1,9 +1,6 @@
 package restClient;
 
-import java.io.BufferedReader;
-import java.io.DataOutputStream;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.IllegalFormatException;
@@ -17,6 +14,8 @@ public class ServerConnection implements Runnable {
 
     public ServerConnection(Socket connectionSocket) throws IOException {
         this.connectionSocket = connectionSocket;
+        this.inFromClient = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
+        this.outToClient = new DataOutputStream(connectionSocket.getOutputStream());
     }
 
     public void run() {
@@ -25,6 +24,7 @@ public class ServerConnection implements Runnable {
             while (connectionSocket.isConnected()) {
                 String line = "";
                 while ((line = inFromClient.readLine()) != null) {
+                    System.out.println(line);
                     interpretLine(line);
                 }
             }
@@ -66,6 +66,5 @@ public class ServerConnection implements Runnable {
     private void sendMessage(String json) throws IOException {
         outToClient.writeBytes("\r\n");
         outToClient.writeBytes(json);
-
     }
 }
