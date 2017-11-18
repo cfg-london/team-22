@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
   <!-- Connected JS File -->
-  <!-- <script src="./app.js"></script> -->
+  <script src="./app.js"></script>
 
   <!-- Connected JS File -->
   <script src="./feed.js"></script>
@@ -102,7 +102,7 @@
         <!-- THESE ARE THE CARDS WE WILL POPULATE (and create more) -->
 
         <!-- Text Card -->
-        <div class="col s6 m7">
+        <div class="col s6 m7" id="container">
           <div class="card">
             <div id="lecture" class="card-content">
               <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
@@ -162,9 +162,11 @@
     </div>
 
   </div>
-  <!-- <script>
-    $(document).ready(() => test());
-  </script>  -->
+  <script>
+      $(function() {
+          controlFlow("agnon");
+      });
+  </script>
 </body>
 
 </html>
