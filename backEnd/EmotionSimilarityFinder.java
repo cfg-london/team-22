@@ -1,7 +1,9 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -46,9 +48,12 @@ public class EmotionSimilarityFinder {
         } catch (IOException e) {
         }
 
+        //names = removeDuplicates(names);
+        System.out.println(Arrays.toString(names.toArray()));
+
         int j = 0;
 
-        for (int i = 4; i <= indicators.size()+5; i = i + 5){
+        for (int i = 4; i <= indicators.size()+5; i = i + 10){
             Emotion e = new Emotion(indicators.get(i-4),indicators.get(i-3),indicators.get(i-2),
                         indicators.get(i-1),indicators.get(i));
                 allLaureats.put(names.get(j),e);
@@ -61,11 +66,21 @@ public class EmotionSimilarityFinder {
         
         while (it.hasNext()) {
             Map.Entry pair = (Map.Entry)it.next();
-            Emotion v = (Emotion)((Map.Entry) it.next()).getValue();
+            Emotion v = (Emotion)pair.getValue();
             System.out.print(v.anger + " " + v.disgust + " " + v.fear + " " + v.joy + " " + v.sadness + " ");
             System.out.println(pair.getKey() );
 
         }
         return;
+    }
+
+    private static ArrayList<String> removeDuplicates(ArrayList<String> list) {
+        ArrayList<String> newList = new ArrayList<>();
+        for (String s : list) {
+            if (!newList.contains(s)) {
+                newList.add(s);
+            }
+        }
+        return newList;
     }
 }
