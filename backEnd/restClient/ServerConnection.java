@@ -76,9 +76,9 @@ public class ServerConnection implements Runnable {
                     return jsonString;
                 }
             }
-            return "";
         } catch (FileNotFoundException e) {
             System.out.println("File not found.");
         }
+        return "";
     }
 }
