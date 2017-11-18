@@ -1,0 +1,8 @@
+#profile-page-header .card-profile-image {
+    width: 160px;
+    position: absolute;
+    top: -160px;
+    z-index: 1;
+    left: 200%;
+    cursor: pointer;
+}
