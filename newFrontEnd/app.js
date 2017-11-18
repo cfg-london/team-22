@@ -3,8 +3,15 @@ function controlFlow() {
     console.log(getBio(person));
     addCard("bio");
     addText(person + "-bio.html", "#bio");
-    addCard("lectureText")
-    addText(person + "-lecture.html", "#lectureText")
+    addCard("lectureText");
+    addText(person + "-lecture.html", "#lectureText");
+    addPic(person);
+}
+
+function addPic(name) {
+    var info = getBio(name);
+    var url = "https://www.nobelprize.org/nobel_prize/" + info.category + "/laureates/" + info.prizeYear + "/" + name + "_postcard.jpg";
+    $("#profilPic").set("src", url);
 }
 
 function addCard(tagId) {

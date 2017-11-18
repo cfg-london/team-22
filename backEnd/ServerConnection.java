@@ -34,7 +34,7 @@ public class ServerConnection implements Runnable {
         String[] components = message.split(" ");
         if (checkGetMessageFormat(components)) {
             String returnString = "";
-            if (components[1].contains(".html")) {
+            if (components[1].contains(".html") || components[1].contains(".jpg")) {
                 returnString = readFile(components[1]);
             } else {
                 //json stuff
