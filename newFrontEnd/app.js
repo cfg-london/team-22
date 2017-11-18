@@ -1,6 +1,8 @@
 function controlFlow() {
     var person = getParameterByName("name");
-    console.log(getBio(person));
+    var laureate = getBio(person);
+    console.log(laureate);
+    setupBio(laureate);
     addCard("bio");
     addText(person + "-bio.html", "#bio");
     addCard("lectureText")
@@ -18,6 +20,15 @@ function addCard(tagId) {
         "              <i class=\"material-icons\">share</i>\n" +
         "            </div>\n" +
         "          </div>");
+}
+
+function setupBio(laureate){
+  $("#laureate-Name").text(laureate.name);
+  $("#biography").append("Born: " + laureate.born +
+        "<br /> Birth Country: " + laureate.bornCountry +
+        " <br /> Prize Category: " + laureate.category +
+        " <br /> Year Awarded Nobel Prize: " + laureate.prizeYear +
+        " <br /> Motivation: " + laureate.motivation);
 }
 
 function getBio(name) {
@@ -39,6 +50,7 @@ function getBio(name) {
         // foundem
         var prize = byId.prizes[0];
         return {
+            "name" : byId.firstname + " " + byId.surname,
             "born" : byId.born.substring(0, 4),
             "died" : byId.died.substring(0, 4),
             "bornCountry" : byId.bornCountry,
@@ -84,6 +96,3 @@ function getParameterByName(name, url) {
     if (!results[2]) return '';
     return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-
-
-
