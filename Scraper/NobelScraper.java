@@ -55,7 +55,7 @@ public class NobelScraper {
             }
             PrintWriter writer = new PrintWriter("Scraper/outLiterature/" + lastName + "-" + section + ".html");
             while ((line = reader.readLine()) != null) {
-                if (section.equals("lecture") && line.startsWith("  <h2>")) {
+                if (section.equals("lecture") && line.contains("<h2>") || line.contains("<h1>")) {
                     writer.println(line);
                     break;
                 }
@@ -69,11 +69,11 @@ public class NobelScraper {
                 }
             }
             while ((line = reader.readLine()) != null) {
-                if (line.equals("    <!-- Blue band START -->")) {
+                if (line.contains("<!-- Blue band START -->")) {
                     while (!(reader.readLine()).equals("<!-- Blue band END -->"));
                     line = reader.readLine();
                 }
-                if (!line.equals("  <!--eri-no-index-->")) {
+                if (!line.contains("<!--eri-no-index-->")) {
                     writer.println(line);
                 } else {
                     break;
