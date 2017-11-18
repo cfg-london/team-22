@@ -50,7 +50,7 @@ public class EmotionSimilarityFinder {
         } catch (IOException e) {
         }
 
-        System.out.println(Arrays.toString(names.toArray()));
+        //System.out.println(Arrays.toString(names.toArray()));
 
         int j = 0;
 
@@ -80,9 +80,26 @@ public class EmotionSimilarityFinder {
             laureates.add(new Laureate(entry.getKey(), entry.getValue(), connections));
         }
 
-        for (Laureate laureate : laureates) {
-            System.out.println(laureate.getName());
-            System.out.println(Arrays.toString(laureate.getBestConnections(10).toArray()));
+        System.out.println("[");
+        Iterator<Laureate> iterator = laureates.iterator();
+        while (iterator.hasNext()) {
+            Laureate laureate = iterator.next();
+            System.out.println("{");
+            System.out.println("\"surname\": \"" + laureate.getName() + "\",");
+            System.out.print("\"connections\": ");
+            System.out.print("[");
+            Iterator<String> it = laureate.getBestConnections(5).iterator();
+            while (it.hasNext()) {
+                System.out.print("\"" + it.next() + "\"");
+                if (it.hasNext()) System.out.print(", ");
+            }
+            System.out.println("]");
+            System.out.print("}");
+            if (iterator.hasNext())
+                System.out.println(",");
+            else
+                System.out.println();
         }
+        System.out.println("]");
     }
 }
