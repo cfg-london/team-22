@@ -35,7 +35,7 @@ class Profile extends Component {
   render(){
     return(
       <div className="profile">
-        <img src={this.state.image} className="profilePic" alt="Dylan is sexy" />
+        <img src={this.state.image} className="profilePic" alt="Dylan" />
         <div className="motivation">
           {this.renderText(this.state.body)}
         </div>
