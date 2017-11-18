@@ -3,17 +3,22 @@
     <head>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  
+
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 
         <!-- Icons -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+        <!-- Ajax -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Connected JS File -->
+        <script src="app.js"></script>
     </head>
 
     <body>
-        
+
         <!-- NAVBAR, don't touch -->
         <nav>
             <div class="nav-wrapper blue darken-4">
@@ -43,14 +48,14 @@
 
                         <div class="col s8 push-s4">
 
-                            
+
                                 <ul class="tabs tabs-transparent">
                                     <li class="tab"><a class="active" href="#test1">Timeline</a></li>
                                     <li class="tab"><a href="#test2">Photos</a></li>
                                     <li class="tab"><a href="#test3">Videos</a></li>
                                     <li class="tab"><a href="#test4">About</a></li>
                                 </ul>
-                            
+
 
                         </div>
                         <br>
@@ -64,6 +69,9 @@
 
         </div>
 
+        <script>
+            $(document).ready(() => test());
+        </script>
     </body>
 
 </html>
