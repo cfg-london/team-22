@@ -52,11 +52,20 @@
 
 /* learn more */
 
-/*.text-content{
-    line-height: 1em;
+.show-more {
+    padding: 10px 0;
+    text-align: center;
 }
 
 .short-text {
     overflow: hidden;
     height: 2em;
-}*/
+}
+
+.full-text{
+    height: auto;
+}
+
+.text-content{
+    line-height: 1em;
+}
