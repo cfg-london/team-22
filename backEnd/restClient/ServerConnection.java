@@ -20,13 +20,10 @@ public class ServerConnection implements Runnable {
     public void run() {
         try {
             System.out.println("this is a new connection");
-            while (connectionSocket.isConnected()) {
-                String line = "";
-                while ((line = inFromClient.readLine()) != null) {
-                    System.out.println(line);
-                    interpretLine(line);
-                }
-            }
+            String line = inFromClient.readLine();
+            System.out.println(line);
+            interpretLine(line);
+            connectionSocket.close();
         } catch (SocketTimeoutException e) {
             System.out.println("Socket time out.");
         } catch (IOException e) {
