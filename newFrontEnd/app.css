@@ -52,13 +52,11 @@
 
 /* learn more */
 
-.hideContent {
-    overflow: hidden;
+/*.text-content{
     line-height: 1em;
-    height: 2em;
 }
 
-.showContent {
-    line-height: 1em;
-    height: auto;
-}
+.short-text {
+    overflow: hidden;
+    height: 2em;
+}*/
