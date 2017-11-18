@@ -81,7 +81,7 @@ public class ServerConnection implements Runnable {
     private String readFile(String queryParameter) throws IOException {
         try {
             StringBuilder builder = new StringBuilder();
-            BufferedReader reader = new BufferedReader(new FileReader("team-22/Scraper/outLiterature" + queryParameter));
+            BufferedReader reader = new BufferedReader(new FileReader("team-22/Scraper/out" + queryParameter));
             String line;
             while ((line = reader.readLine()) != null) {
                 builder.append(line);
