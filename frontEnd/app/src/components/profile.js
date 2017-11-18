@@ -11,7 +11,6 @@ class Profile extends Component {
     }
   }
 
-  // TODO: FIX THIS STUFF!
   renderText(s){
     if(s.length > 380){
       console.log("LONG ASS STRING");
