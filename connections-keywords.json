@@ -1,0 +1,1486 @@
+[
+  {
+    "surname": "hesse",
+    "connections": ["kipling", "negishi", "rolland", "warren", "prelog"]
+  },
+  {
+    "surname": "szymborska",
+    "connections": ["akasaki", "seaborg", "stern", "hesse", "arnoldson"]
+  },
+  {
+    "surname": "arnoldson",
+    "connections": ["horvitz", "quidde", "fried", "hesse", "szymborska"]
+  },
+  {
+    "surname": "merrifield",
+    "connections": ["seaborg", "stern", "vane", "canetti", "hesse"]
+  },
+  {
+    "surname": "guillemin",
+    "connections": ["carlsson", "cournand", "levitt", "hesse", "szymborska"]
+  },
+  {
+    "surname": "montale",
+    "connections": ["canetti", "heaney", "transtromer", "hesse", "szymborska"]
+  },
+  {
+    "surname": "giaever",
+    "connections": ["canetti", "feynman", "wigner", "ting", "semenov"]
+  },
+  {
+    "surname": "elbaradei",
+    "connections": ["pearson", "seaborg", "ochoa", "stern", "furchgott"]
+  },
+  {
+    "surname": "greider",
+    "connections": ["szostak", "negishi", "schawlow", "steitz", "mello"]
+  },
+  {
+    "surname": "salam",
+    "connections": ["ginzburg", "canetti", "mcdonald", "heeger", "phillips"]
+  },
+  {
+    "surname": "johnson",
+    "connections": ["sudhof", "szostak", "koch", "bergius", "ramakrishnan"]
+  },
+  {
+    "surname": "kipling",
+    "connections": ["steinbeck", "hesse", "negishi", "warren", "prelog"]
+  },
+  {
+    "surname": "tum",
+    "connections": ["horvitz", "sudhof", "szostak", "koch", "bergius"]
+  },
+  {
+    "surname": "todd",
+    "connections": ["robinson", "cornforth", "seaborg", "taube", "polanyi"]
+  },
+  {
+    "surname": "lenard",
+    "connections": ["sudhof", "szostak", "koch", "bergius", "ramakrishnan"]
+  },
+  {
+    "surname": "ruzicka",
+    "connections": ["staudinger", "debye", "stark", "zewail", "marshall"]
+  },
+  {
+    "surname": "pirandello",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "negishi",
+    "connections": ["greider", "schawlow", "phillips", "steitz", "shull"]
+  },
+  {
+    "surname": "lawrence",
+    "connections": ["vane", "fitch", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "smithies",
+    "connections": ["horvitz", "wineland", "laughlin", "greider", "negishi"]
+  },
+  {
+    "surname": "virtanen",
+    "connections": ["canetti", "ahtisaari", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "hewish",
+    "connections": ["canetti", "aston", "rutherford", "hesse", "szymborska"]
+  },
+  {
+    "surname": "ducommun",
+    "connections": ["fried", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "furchgott",
+    "connections": ["elion", "cram", "shull", "hauptman", "marshall"]
+  },
+  {
+    "surname": "hofstadter",
+    "connections": ["elion", "varmus", "oneill", "wiesel", "steinbeck"]
+  },
+  {
+    "surname": "hopkins",
+    "connections": ["greider", "negishi", "smithies", "horvitz", "warren"]
+  },
+  {
+    "surname": "hounsfield",
+    "connections": ["canetti", "greider", "pamuk", "alexievich", "szostak"]
+  },
+  {
+    "surname": "oneill",
+    "connections": ["elion", "varmus", "hofstadter", "wiesel", "steinbeck"]
+  },
+  {
+    "surname": "theorell",
+    "connections": ["murad", "kocher", "canetti", "hesse", "szymborska"]
+  },
+  {
+    "surname": "horvitz",
+    "connections": ["smithies", "schawlow", "mello", "greider", "negishi"]
+  },
+  {
+    "surname": "chauvin",
+    "connections": ["canetti", "horvitz", "mello", "kroto", "bekesy"]
+  },
+  {
+    "surname": "hess",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "rolland",
+    "connections": ["hesse", "schmidt", "shechtman", "jelinek", "riess"]
+  },
+  {
+    "surname": "warren",
+    "connections": ["mello", "kroto", "negishi", "krebs", "wineland"]
+  },
+  {
+    "surname": "naipaul",
+    "connections": ["akasaki", "alexievich", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "sancar",
+    "connections": ["schawlow", "phillips", "krebs", "greider", "negishi"]
+  },
+  {
+    "surname": "maeterlinck",
+    "connections": ["heyse", "canetti", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "siegbahn",
+    "connections": ["canetti", "ruska", "dehmelt", "granit", "aleixandre"]
+  },
+  {
+    "surname": "feynman",
+    "connections": ["hofstadter", "oneill", "wiesel", "steinbeck", "hauptman"]
+  },
+  {
+    "surname": "hoff",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "carrel",
+    "connections": ["faulkner", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "cournand",
+    "connections": ["dawes", "taylor", "guillemin", "oneill", "kusch"]
+  },
+  {
+    "surname": "erlanger",
+    "connections": ["hartline", "whipple", "gasser", "theiler", "rous"]
+  },
+  {
+    "surname": "hamsun",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "enders",
+    "connections": ["greider", "negishi", "smithies", "horvitz", "warren"]
+  },
+  {
+    "surname": "becquerel",
+    "connections": ["broglie", "horvitz", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "marquez",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "powell",
+    "connections": ["mcdonald", "ginzburg", "aston", "mello", "kroto"]
+  },
+  {
+    "surname": "klerk",
+    "connections": ["levitt", "mandela", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "kellogg",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "lipscomb",
+    "connections": ["alexievich", "todd", "boyer", "robinson", "zewail"]
+  },
+  {
+    "surname": "mcdonald",
+    "connections": ["wieman", "paul", "chu", "kohn", "cronin"]
+  },
+  {
+    "surname": "kobayashi",
+    "connections": ["boyer", "zewail", "furchgott", "molina", "tanaka"]
+  },
+  {
+    "surname": "prelog",
+    "connections": ["szostak", "ramakrishnan", "werner", "canetti", "hesse"]
+  },
+  {
+    "surname": "grass",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "ginzburg",
+    "connections": ["paul", "wieman", "chu", "kohn", "yalow"]
+  },
+  {
+    "surname": "satyarthi",
+    "connections": ["greider", "szostak", "ramakrishnan", "lessing", "negishi"]
+  },
+  {
+    "surname": "moerner",
+    "connections": ["schawlow", "phillips", "boyer", "chu", "kohn"]
+  },
+  {
+    "surname": "faulkner",
+    "connections": ["horvitz", "carrel", "alexievich", "canetti", "hesse"]
+  },
+  {
+    "surname": "nansen",
+    "connections": ["mello", "kroto", "laughlin", "greider", "negishi"]
+  },
+  {
+    "surname": "behring",
+    "connections": ["alexievich", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "hitchings",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "esquivel",
+    "connections": ["houssay", "paz", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "sudhof",
+    "connections": ["bergius", "morgan", "marshall", "hesse", "johnson"]
+  },
+  {
+    "surname": "wilczek",
+    "connections": ["hofstadter", "oneill", "wiesel", "steinbeck", "hauptman"]
+  },
+  {
+    "surname": "richardson",
+    "connections": ["negishi", "heeger", "phillips", "chu", "stormer"]
+  },
+  {
+    "surname": "dawes",
+    "connections": ["taylor", "oneill", "cournand", "kusch", "campbell"]
+  },
+  {
+    "surname": "eizaguirre",
+    "connections": ["mello", "kroto", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "crick",
+    "connections": ["compton", "levitt", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "pamuk",
+    "connections": ["elion", "greengard", "varmus", "hofstadter", "oneill"]
+  },
+  {
+    "surname": "aston",
+    "connections": ["hewish", "powell", "walton", "hesse", "szymborska"]
+  },
+  {
+    "surname": "katz",
+    "connections": ["macdiarmid", "seaborg", "stern", "gobat", "hesse"]
+  },
+  {
+    "surname": "branting",
+    "connections": ["bergstrom", "transtromer", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "schawlow",
+    "connections": ["phillips", "chu", "amano", "greider", "negishi"]
+  },
+  {
+    "surname": "domagk",
+    "connections": ["szostak", "ramakrishnan", "marshall", "doherty", "greider"]
+  },
+  {
+    "surname": "tagore",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "sulston",
+    "connections": ["szostak", "axel", "ramakrishnan", "perutz", "marshall"]
+  },
+  {
+    "surname": "buisson",
+    "connections": ["canetti", "sudhof", "szostak", "koch", "bergius"]
+  },
+  {
+    "surname": "jouhaux",
+    "connections": ["greider", "france", "gard", "renault", "szostak"]
+  },
+  {
+    "surname": "undset",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "pearson",
+    "connections": ["elion", "elbaradei", "varmus", "hofstadter", "oneill"]
+  },
+  {
+    "surname": "kusch",
+    "connections": ["dawes", "taylor", "oneill", "cournand", "pamuk"]
+  },
+  {
+    "surname": "quidde",
+    "connections": ["arnoldson", "ossietzky", "fried", "hesse", "szymborska"]
+  },
+  {
+    "surname": "finsen",
+    "connections": ["steinberger", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "mello",
+    "connections": ["schawlow", "greider", "horvitz", "saramago", "campbell"]
+  },
+  {
+    "surname": "kroto",
+    "connections": ["schawlow", "krebs", "phillips", "saramago", "campbell"]
+  },
+  {
+    "surname": "heeger",
+    "connections": ["paul", "wieman", "chu", "yalow", "mcdonald"]
+  },
+  {
+    "surname": "alexievich",
+    "connections": ["lipscomb", "maathai", "taube", "boll", "dulbecco"]
+  },
+  {
+    "surname": "adrian",
+    "connections": ["greider", "todd", "negishi", "smithies", "horvitz"]
+  },
+  {
+    "surname": "paul",
+    "connections": ["mcdonald", "wieman", "ginzburg", "heeger", "phillips"]
+  },
+  {
+    "surname": "grunberg",
+    "connections": ["mcdonald", "ginzburg", "moerner", "heeger", "brockhouse"]
+  },
+  {
+    "surname": "houssay",
+    "connections": ["esquivel", "luria", "lederberg", "seaborg", "minot"]
+  },
+  {
+    "surname": "brockhouse",
+    "connections": ["laughlin", "ginzburg", "wineland", "kohn", "wieman"]
+  },
+  {
+    "surname": "shockley",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "tomonaga",
+    "connections": ["seaborg", "stern", "grunberg", "canetti", "hesse"]
+  },
+  {
+    "surname": "kossel",
+    "connections": ["meyerhof", "seaborg", "stern", "canetti", "hesse"]
+  },
+  {
+    "surname": "ahtisaari",
+    "connections": ["pearson", "elbaradei", "virtanen", "hesse", "szymborska"]
+  },
+  {
+    "surname": "townes",
+    "connections": ["pamuk", "schawlow", "kusch", "mello", "kroto"]
+  },
+  {
+    "surname": "phillips",
+    "connections": ["chu", "schawlow", "kohn", "yalow", "paul"]
+  },
+  {
+    "surname": "fischer",
+    "connections": ["hesse", "kipling", "negishi", "warren", "prelog"]
+  },
+  {
+    "surname": "landau",
+    "connections": ["ginzburg", "salam", "mcdonald", "heeger", "phillips"]
+  },
+  {
+    "surname": "sartre",
+    "connections": ["canetti", "lippmann", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "theiler",
+    "connections": ["erlanger", "whipple", "rous", "murphy", "landau"]
+  },
+  {
+    "surname": "saramago",
+    "connections": ["mello", "kroto", "greider", "negishi", "smithies"]
+  },
+  {
+    "surname": "banting",
+    "connections": ["hesse", "kipling", "negishi", "warren", "prelog"]
+  },
+  {
+    "surname": "binnig",
+    "connections": ["akasaki", "ginzburg", "salam", "mcdonald", "heeger"]
+  },
+  {
+    "surname": "white",
+    "connections": ["mello", "kroto", "cornforth", "canetti", "hesse"]
+  },
+  {
+    "surname": "soddy",
+    "connections": ["ramsay", "rutherford", "sudhof", "theiler", "dale"]
+  },
+  {
+    "surname": "pregl",
+    "connections": ["akasaki", "mcdonald", "kroto", "phillips", "aleixandre"]
+  },
+  {
+    "surname": "tiselius",
+    "connections": ["furchgott", "landau", "theiler", "molina", "zewail"]
+  },
+  {
+    "surname": "dale",
+    "connections": ["beckett", "todd", "furchgott", "adrian", "soddy"]
+  },
+  {
+    "surname": "france",
+    "connections": ["jouhaux", "alexievich", "renault", "hesse", "szymborska"]
+  },
+  {
+    "surname": "wiesel",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "steinbeck"]
+  },
+  {
+    "surname": "boll",
+    "connections": ["greider", "alexievich", "szostak", "ramakrishnan", "mello"]
+  },
+  {
+    "surname": "paz",
+    "connections": ["esquivel", "heaney", "transtromer", "canetti", "hesse"]
+  },
+  {
+    "surname": "walker",
+    "connections": ["sulston", "axel", "levitt", "greider", "mello"]
+  },
+  {
+    "surname": "brown",
+    "connections": ["elion", "goldstein", "varmus", "hofstadter", "oneill"]
+  },
+  {
+    "surname": "campbell",
+    "connections": ["mello", "kroto", "shull", "oneill", "horvitz"]
+  },
+  {
+    "surname": "nernst",
+    "connections": ["suzuki", "canetti", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "wigner",
+    "connections": ["giaever", "feynman", "ting", "bridgman", "bergius"]
+  },
+  {
+    "surname": "steinbeck",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "chu",
+    "connections": ["phillips", "yalow", "schawlow", "paul", "stormer"]
+  },
+  {
+    "surname": "sanger",
+    "connections": ["josephson", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "munro",
+    "connections": ["greider", "negishi", "horvitz", "sancar", "moerner"]
+  },
+  {
+    "surname": "krebs",
+    "connections": ["kroto", "schawlow", "mello", "kobilka", "murad"]
+  },
+  {
+    "surname": "pontoppidan",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "hartline",
+    "connections": ["erlanger", "whipple", "mayer", "greengard", "seaborg"]
+  },
+  {
+    "surname": "gard",
+    "connections": ["jouhaux", "mello", "kroto", "renault", "hesse"]
+  },
+  {
+    "surname": "steinman",
+    "connections": ["furchgott", "molina", "zewail", "tanaka", "wieman"]
+  },
+  {
+    "surname": "raman",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "altman",
+    "connections": ["sulston", "axel", "perutz", "greider", "furchgott"]
+  },
+  {
+    "surname": "lederberg",
+    "connections": ["seaborg", "hofstadter", "oneill", "pamuk", "wiesel"]
+  },
+  {
+    "surname": "steitz",
+    "connections": ["greider", "schawlow", "negishi", "mello", "phillips"]
+  },
+  {
+    "surname": "fukui",
+    "connections": ["canetti", "prelog", "kroto", "krebs", "robinson"]
+  },
+  {
+    "surname": "meyerhof",
+    "connections": ["dawes", "taylor", "oneill", "cournand", "sudhof"]
+  },
+  {
+    "surname": "shull",
+    "connections": ["schawlow", "reines", "berg", "yalow", "greider"]
+  },
+  {
+    "surname": "henderson",
+    "connections": ["pamuk", "greider", "negishi", "smithies", "horvitz"]
+  },
+  {
+    "surname": "fo",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "luria",
+    "connections": ["houssay", "alexievich", "townes", "ting", "bridgman"]
+  },
+  {
+    "surname": "wallach",
+    "connections": ["pamuk", "ossietzky", "shaw", "lessing", "hesse"]
+  },
+  {
+    "surname": "renault",
+    "connections": ["elbaradei", "jouhaux", "france", "gard", "broglie"]
+  },
+  {
+    "surname": "ziegler",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "waksman",
+    "connections": ["dawes", "seaborg", "taylor", "stern", "oneill"]
+  },
+  {
+    "surname": "yamanaka",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "krogh",
+    "connections": ["sudhof", "szostak", "koch", "bergius", "ramakrishnan"]
+  },
+  {
+    "surname": "passy",
+    "connections": ["cremer", "canetti", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "temin",
+    "connections": ["boyer", "grubbs", "kobayashi", "moerner", "sharpless"]
+  },
+  {
+    "surname": "stark",
+    "connections": ["staudinger", "canetti", "ruzicka", "debye", "sudhof"]
+  },
+  {
+    "surname": "bellow",
+    "connections": ["seaborg", "furchgott", "hofstadter", "oneill", "marquez"]
+  },
+  {
+    "surname": "ting",
+    "connections": ["seaborg", "wiesel", "stern", "canetti", "giaever"]
+  },
+  {
+    "surname": "sharpless",
+    "connections": ["canetti", "mello", "kroto", "greider", "negishi"]
+  },
+  {
+    "surname": "shimomura",
+    "connections": ["morgan", "hunt", "suzuki", "hesse", "szymborska"]
+  },
+  {
+    "surname": "jacob",
+    "connections": ["hartwell", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "szostak",
+    "connections": ["ramakrishnan", "greider", "boyer", "satyarthi", "sulston"]
+  },
+  {
+    "surname": "molina",
+    "connections": ["zewail", "marshall", "cram", "doherty", "canetti"]
+  },
+  {
+    "surname": "semenov",
+    "connections": ["giaever", "greider", "landau", "szostak", "ramakrishnan"]
+  },
+  {
+    "surname": "hench",
+    "connections": ["oneill", "cournand", "dawes", "kusch", "campbell"]
+  },
+  {
+    "surname": "dulbecco",
+    "connections": ["alexievich", "hesse", "kipling", "negishi", "warren"]
+  },
+  {
+    "surname": "boyer",
+    "connections": ["kobayashi", "moerner", "temin", "szostak", "zewail"]
+  },
+  {
+    "surname": "wineland",
+    "connections": ["horvitz", "mello", "kroto", "campbell", "laughlin"]
+  },
+  {
+    "surname": "mottelson",
+    "connections": ["schawlow", "phillips", "greider", "negishi", "chu"]
+  },
+  {
+    "surname": "aleixandre",
+    "connections": ["akasaki", "siegbahn", "mcdonald", "sudhof", "kroto"]
+  },
+  {
+    "surname": "bridgman",
+    "connections": ["seaborg", "yalow", "giaever", "furchgott", "hofstadter"]
+  },
+  {
+    "surname": "stormer",
+    "connections": ["schawlow", "paul", "chu", "kohn", "phillips"]
+  },
+  {
+    "surname": "lagerlof",
+    "connections": ["horvitz", "mello", "kroto", "boll", "giauque"]
+  },
+  {
+    "surname": "robinson",
+    "connections": ["todd", "cornforth", "seaborg", "werner", "taube"]
+  },
+  {
+    "surname": "leloir",
+    "connections": ["dawes", "taylor", "oneill", "cournand", "kusch"]
+  },
+  {
+    "surname": "fowler",
+    "connections": ["kellogg", "canetti", "mcdonald", "ginzburg", "heeger"]
+  },
+  {
+    "surname": "barkla",
+    "connections": ["todd", "adrian", "dale", "robinson", "fleming"]
+  },
+  {
+    "surname": "staudinger",
+    "connections": ["ruzicka", "stark", "debye", "zsigmondy", "reichstein"]
+  },
+  {
+    "surname": "zewail",
+    "connections": ["molina", "boyer", "marshall", "kobayashi", "cram"]
+  },
+  {
+    "surname": "cram",
+    "connections": ["furchgott", "doherty", "molina", "zewail", "tanaka"]
+  },
+  {
+    "surname": "kohler",
+    "connections": ["walker", "levitt", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "lippmann",
+    "connections": ["canetti", "sartre", "beckett", "hesse", "szymborska"]
+  },
+  {
+    "surname": "koch",
+    "connections": ["bergius", "morgan", "marshall", "kocher", "milstein"]
+  },
+  {
+    "surname": "bergius",
+    "connections": ["marshall", "szostak", "ramakrishnan", "horvitz", "sudhof"]
+  },
+  {
+    "surname": "fleming",
+    "connections": ["todd", "hounsfield", "adrian", "dale", "robinson"]
+  },
+  {
+    "surname": "mayer",
+    "connections": ["erlanger", "sudhof", "mello", "kroto", "alexievich"]
+  },
+  {
+    "surname": "bekesy",
+    "connections": ["greider", "chauvin", "szostak", "ramakrishnan", "canetti"]
+  },
+  {
+    "surname": "hauptman",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "beernaert",
+    "connections": ["horvitz", "szostak", "ramakrishnan", "marshall", "greider"]
+  },
+  {
+    "surname": "sperry",
+    "connections": ["schawlow", "phillips", "greider", "negishi", "chu"]
+  },
+  {
+    "surname": "kobilka",
+    "connections": ["schawlow", "krebs", "greider", "phillips", "doisy"]
+  },
+  {
+    "surname": "macdiarmid",
+    "connections": ["schawlow", "phillips", "rutherford", "greider", "negishi"]
+  },
+  {
+    "surname": "schmidt",
+    "connections": ["rolland", "shechtman", "jelinek", "riess", "perlmutter"]
+  },
+  {
+    "surname": "camus",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "smalley",
+    "connections": ["wineland", "laughlin", "greider", "negishi", "smithies"]
+  },
+  {
+    "surname": "hell",
+    "connections": ["wineland", "laughlin", "greider", "negishi", "smithies"]
+  },
+  {
+    "surname": "reines",
+    "connections": ["elion", "yalow", "shull", "varmus", "hofstadter"]
+  },
+  {
+    "surname": "onnes",
+    "connections": ["richardson", "seaborg", "stern", "hesse", "szymborska"]
+  },
+  {
+    "surname": "carducci",
+    "connections": ["richardson", "pamuk", "mello", "kroto", "heeger"]
+  },
+  {
+    "surname": "shechtman",
+    "connections": ["rolland", "schmidt", "jelinek", "riess", "perlmutter"]
+  },
+  {
+    "surname": "williams",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "herschbach",
+    "connections": ["suzuki", "moerner", "steitz", "fukui", "dehmelt"]
+  },
+  {
+    "surname": "ramsay",
+    "connections": ["soddy", "todd", "theiler", "dale", "robinson"]
+  },
+  {
+    "surname": "cremer",
+    "connections": ["passy", "horvitz", "sudhof", "dawes", "szostak"]
+  },
+  {
+    "surname": "pedersen",
+    "connections": ["smithies", "furchgott", "horvitz", "mello", "kroto"]
+  },
+  {
+    "surname": "einthoven",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "heaney",
+    "connections": ["montale", "transtromer", "pamuk", "paz", "jimenez"]
+  },
+  {
+    "surname": "huggins",
+    "connections": ["alexievich", "fleming", "seaborg", "stern", "hesse"]
+  },
+  {
+    "surname": "synge",
+    "connections": ["canetti", "seaborg", "stern", "hesse", "szymborska"]
+  },
+  {
+    "surname": "strutt",
+    "connections": ["canetti", "mcdonald", "ginzburg", "heeger", "phillips"]
+  },
+  {
+    "surname": "arber",
+    "connections": ["sancar", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "arafat",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "axel",
+    "connections": ["elion", "greider", "schawlow", "steitz", "shull"]
+  },
+  {
+    "surname": "schwartz",
+    "connections": ["greider", "mcdonald", "ginzburg", "kusch", "heeger"]
+  },
+  {
+    "surname": "greengard",
+    "connections": ["elion", "oneill", "seaborg", "varmus", "benacerraf"]
+  },
+  {
+    "surname": "giauque",
+    "connections": ["mello", "kroto", "todd", "lipscomb", "saramago"]
+  },
+  {
+    "surname": "purcell",
+    "connections": ["alexievich", "sudhof", "szostak", "fowler", "koch"]
+  },
+  {
+    "surname": "cockcroft",
+    "connections": ["salam", "todd", "adrian", "dale", "mottelson"]
+  },
+  {
+    "surname": "weinberg",
+    "connections": ["greengard", "yalow", "heisenberg", "canetti", "furchgott"]
+  },
+  {
+    "surname": "compton",
+    "connections": ["crick", "seaborg", "doisy", "dehmelt", "ruska"]
+  },
+  {
+    "surname": "hausen",
+    "connections": ["kornberg", "sudhof", "alexievich", "szostak", "koch"]
+  },
+  {
+    "surname": "karlfeldt",
+    "connections": ["mello", "kroto", "saramago", "hesse", "szymborska"]
+  },
+  {
+    "surname": "whipple",
+    "connections": ["erlanger", "theiler", "hartline", "rous", "waksman"]
+  },
+  {
+    "surname": "grubbs",
+    "connections": ["temin", "boyer", "werner", "kobayashi", "prelog"]
+  },
+  {
+    "surname": "ramakrishnan",
+    "connections": ["szostak", "greider", "satyarthi", "sulston", "bergius"]
+  },
+  {
+    "surname": "tanaka",
+    "connections": ["marshall", "zewail", "cram", "canetti", "kobayashi"]
+  },
+  {
+    "surname": "jelinek",
+    "connections": ["rolland", "schmidt", "shechtman", "riess", "perlmutter"]
+  },
+  {
+    "surname": "hume",
+    "connections": ["campbell", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "russell",
+    "connections": ["beckett", "dale", "walton", "canetti", "hesse"]
+  },
+  {
+    "surname": "carlsson",
+    "connections": ["guillemin", "kroto", "krebs", "horvitz", "warren"]
+  },
+  {
+    "surname": "cajal",
+    "connections": ["domagk", "bordet", "canetti", "hesse", "szymborska"]
+  },
+  {
+    "surname": "kohn",
+    "connections": ["phillips", "chu", "stormer", "negishi", "mcdonald"]
+  },
+  {
+    "surname": "cronin",
+    "connections": ["wieman", "mcdonald", "boyer", "ginzburg", "heeger"]
+  },
+  {
+    "surname": "seaborg",
+    "connections": ["elion", "benacerraf", "greengard", "ochoa", "stern"]
+  },
+  {
+    "surname": "murad",
+    "connections": ["schawlow", "mello", "kroto", "krebs", "phillips"]
+  },
+  {
+    "surname": "morrison",
+    "connections": ["seaborg", "stern", "horvitz", "sudhof", "alexievich"]
+  },
+  {
+    "surname": "glashow",
+    "connections": ["hofstadter", "oneill", "wiesel", "steinbeck", "hauptman"]
+  },
+  {
+    "surname": "agnon",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "gilbert",
+    "connections": ["schawlow", "phillips", "greider", "ginzburg", "chu"]
+  },
+  {
+    "surname": "werner",
+    "connections": ["canetti", "prelog", "kroto", "krebs", "robinson"]
+  },
+  {
+    "surname": "nirenberg",
+    "connections": ["hofstadter", "oneill", "wiesel", "steinbeck", "hauptman"]
+  },
+  {
+    "surname": "beadle",
+    "connections": ["alexievich", "vane", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "ross",
+    "connections": ["brattain", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "basov",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "ossietzky",
+    "connections": ["shaw", "quidde", "wallach", "canetti", "hesse"]
+  },
+  {
+    "surname": "zeeman",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "gabor",
+    "connections": ["canetti", "dehmelt", "ruska", "ruzicka", "stark"]
+  },
+  {
+    "surname": "abrikosov",
+    "connections": ["ginzburg", "seaborg", "kao", "stern", "canetti"]
+  },
+  {
+    "surname": "cornforth",
+    "connections": ["todd", "robinson", "bergstrom", "lipscomb", "sulston"]
+  },
+  {
+    "surname": "maathai",
+    "connections": ["alexievich", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "klitzing",
+    "connections": ["seaborg", "stern", "szostak", "ramakrishnan", "marshall"]
+  },
+  {
+    "surname": "natta",
+    "connections": ["zernike", "pamuk", "taube", "heyrovsky", "lessing"]
+  },
+  {
+    "surname": "schwinger",
+    "connections": ["yalow", "hofstadter", "oneill", "wiesel", "steinbeck"]
+  },
+  {
+    "surname": "pauli",
+    "connections": ["henderson", "ting", "vleck", "hesse", "szymborska"]
+  },
+  {
+    "surname": "moissan",
+    "connections": ["canetti", "werner", "prelog", "kroto", "krebs"]
+  },
+  {
+    "surname": "bunin",
+    "connections": ["moerner", "varmus", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "taube",
+    "connections": ["elion", "alexievich", "seaborg", "varmus", "wald"]
+  },
+  {
+    "surname": "akasaki",
+    "connections": ["milstein", "binnig", "bovet", "seaborg", "stern"]
+  },
+  {
+    "surname": "debye",
+    "connections": ["ruzicka", "staudinger", "stark", "zsigmondy", "feynman"]
+  },
+  {
+    "surname": "levitt",
+    "connections": ["greider", "sulston", "mello", "kroto", "walker"]
+  },
+  {
+    "surname": "smoot",
+    "connections": ["kroto", "wineland", "levitt", "laughlin", "greider"]
+  },
+  {
+    "surname": "shaw",
+    "connections": ["ossietzky", "wallach", "sillanpaa", "gobat", "mahfouz"]
+  },
+  {
+    "surname": "dunant",
+    "connections": ["pamuk", "lessing", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "minot",
+    "connections": ["enders", "houssay", "mottelson", "seaborg", "glashow"]
+  },
+  {
+    "surname": "heyse",
+    "connections": ["maeterlinck", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "marconi",
+    "connections": ["braun", "canetti", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "polanyi",
+    "connections": ["todd", "robinson", "adrian", "dale", "barkla"]
+  },
+  {
+    "surname": "charpak",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "alfven",
+    "connections": ["furchgott", "molina", "zewail", "tanaka", "seaborg"]
+  },
+  {
+    "surname": "brattain",
+    "connections": ["ross", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "deledda",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "alder",
+    "connections": ["kroto", "greider", "negishi", "smithies", "horvitz"]
+  },
+  {
+    "surname": "hartwell",
+    "connections": ["richardson", "mello", "kroto", "greider", "negishi"]
+  },
+  {
+    "surname": "mott",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "doisy",
+    "connections": ["krebs", "kobilka", "gasser", "seaborg", "stern"]
+  },
+  {
+    "surname": "huber",
+    "connections": ["steinberger", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "goldstein",
+    "connections": ["brown", "krebs", "warren", "sancar", "erlanger"]
+  },
+  {
+    "surname": "dehmelt",
+    "connections": ["ruska", "canetti", "siegbahn", "mcdonald", "stormer"]
+  },
+  {
+    "surname": "morgan",
+    "connections": ["sudhof", "szostak", "koch", "bergius", "ramakrishnan"]
+  },
+  {
+    "surname": "clezio",
+    "connections": ["horvitz", "mcdonald", "kroto", "phillips", "pregl"]
+  },
+  {
+    "surname": "heyrovsky",
+    "connections": ["hesse", "negishi", "warren", "prelog", "alexievich"]
+  },
+  {
+    "surname": "vane",
+    "connections": ["phillips", "merrifield", "negishi", "lawrence", "horvitz"]
+  },
+  {
+    "surname": "berg",
+    "connections": ["elion", "schawlow", "shull", "phillips", "reines"]
+  },
+  {
+    "surname": "broglie",
+    "connections": ["becquerel", "ginzburg", "stern", "salam", "cournand"]
+  },
+  {
+    "surname": "anfinsen",
+    "connections": ["erlanger", "alexievich", "whipple", "rous", "benacerraf"]
+  },
+  {
+    "surname": "riess",
+    "connections": ["rolland", "schmidt", "shechtman", "jelinek", "perlmutter"]
+  },
+  {
+    "surname": "bunche",
+    "connections": ["elion", "glashow", "varmus", "hofstadter", "oneill"]
+  },
+  {
+    "surname": "yalow",
+    "connections": ["elion", "chu", "phillips", "reines", "schawlow"]
+  },
+  {
+    "surname": "ruska",
+    "connections": ["dehmelt", "canetti", "siegbahn", "betzig", "mcdonald"]
+  },
+  {
+    "surname": "jimenez",
+    "connections": ["dawes", "taylor", "oneill", "cournand", "kusch"]
+  },
+  {
+    "surname": "perutz",
+    "connections": ["sulston", "altman", "axel", "bergstrom", "greider"]
+  },
+  {
+    "surname": "wieman",
+    "connections": ["mcdonald", "paul", "ginzburg", "heeger", "chu"]
+  },
+  {
+    "surname": "flory",
+    "connections": ["furchgott", "molina", "fowler", "zewail", "kobilka"]
+  },
+  {
+    "surname": "bovet",
+    "connections": ["akasaki", "canetti", "mcdonald", "kroto", "phillips"]
+  },
+  {
+    "surname": "fermi",
+    "connections": ["mcdonald", "pamuk", "kroto", "phillips", "pregl"]
+  },
+  {
+    "surname": "bordet",
+    "connections": ["cajal", "nicolle", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "hunt",
+    "connections": ["elion", "axel", "varmus", "hofstadter", "oneill"]
+  },
+  {
+    "surname": "taylor",
+    "connections": ["dawes", "oneill", "cournand", "kusch", "campbell"]
+  },
+  {
+    "surname": "warshel",
+    "connections": ["ginzburg", "wineland", "levitt", "laughlin", "canetti"]
+  },
+  {
+    "surname": "marshall",
+    "connections": ["molina", "zewail", "bergius", "tanaka", "wieman"]
+  },
+  {
+    "surname": "solzhenitsyn",
+    "connections": ["marshall", "szostak", "wineland", "bergius", "ramakrishnan"]
+  },
+  {
+    "surname": "king",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "seifert",
+    "connections": ["soyinka", "canetti", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "steinberger",
+    "connections": ["szostak", "greider", "finsen", "fukui", "ting"]
+  },
+  {
+    "surname": "vleck",
+    "connections": ["wieman", "yalow", "furchgott", "enders", "mcdonald"]
+  },
+  {
+    "surname": "florey",
+    "connections": ["alexievich", "hesse", "kipling", "negishi", "warren"]
+  },
+  {
+    "surname": "rainwater",
+    "connections": ["mcdonald", "ginzburg", "heeger", "phillips", "chu"]
+  },
+  {
+    "surname": "perlmutter",
+    "connections": ["rolland", "schmidt", "shechtman", "jelinek", "riess"]
+  },
+  {
+    "surname": "walton",
+    "connections": ["beckett", "furchgott", "powell", "aston", "alexievich"]
+  },
+  {
+    "surname": "hubel",
+    "connections": ["canetti", "furchgott", "houssay", "lederberg", "whipple"]
+  },
+  {
+    "surname": "ochoa",
+    "connections": ["seaborg", "stern", "elbaradei", "furchgott", "hofstadter"]
+  },
+  {
+    "surname": "varmus",
+    "connections": ["elion", "hofstadter", "oneill", "wiesel", "steinbeck"]
+  },
+  {
+    "surname": "lessing",
+    "connections": ["horvitz", "satyarthi", "smithies", "hounsfield", "pamuk"]
+  },
+  {
+    "surname": "fried",
+    "connections": ["ducommun", "arnoldson", "dawes", "quidde", "renault"]
+  },
+  {
+    "surname": "rous",
+    "connections": ["furchgott", "erlanger", "theiler", "molina", "zewail"]
+  },
+  {
+    "surname": "kilby",
+    "connections": ["schawlow", "phillips", "chu", "canetti", "greider"]
+  },
+  {
+    "surname": "loewi",
+    "connections": ["seaborg", "varmus", "elbaradei", "furchgott", "hofstadter"]
+  },
+  {
+    "surname": "spemann",
+    "connections": ["alexievich", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "benacerraf",
+    "connections": ["elion", "seaborg", "varmus", "oneill", "greengard"]
+  },
+  {
+    "surname": "granit",
+    "connections": ["siegbahn", "bergstrom", "stern", "alexievich", "aleixandre"]
+  },
+  {
+    "surname": "shirakawa",
+    "connections": ["greider", "negishi", "kroto", "phillips", "steitz"]
+  },
+  {
+    "surname": "reichstein",
+    "connections": ["ruzicka", "staudinger", "richardson", "stark", "debye"]
+  },
+  {
+    "surname": "yonath",
+    "connections": ["steitz", "canetti", "greider", "levitt", "warshel"]
+  },
+  {
+    "surname": "gasser",
+    "connections": ["erlanger", "doisy", "rous", "krebs", "hartline"]
+  },
+  {
+    "surname": "golgi",
+    "connections": ["seaborg", "stern", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "josephson",
+    "connections": ["seaborg", "stern", "sanger", "debye", "vane"]
+  },
+  {
+    "surname": "heisenberg",
+    "connections": ["paul", "chu", "kohn", "yalow", "wieman"]
+  },
+  {
+    "surname": "sillanpaa",
+    "connections": ["jouhaux", "renault", "shaw", "hesse", "szymborska"]
+  },
+  {
+    "surname": "lorentz",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "nakamura",
+    "connections": ["mello", "kroto", "canetti", "greider", "negishi"]
+  },
+  {
+    "surname": "amano",
+    "connections": ["schawlow", "greider", "negishi", "phillips", "steitz"]
+  },
+  {
+    "surname": "elion",
+    "connections": ["reines", "yalow", "varmus", "benacerraf", "hofstadter"]
+  },
+  {
+    "surname": "wilkinson",
+    "connections": ["mello", "kroto", "houssay", "cockcroft", "canetti"]
+  },
+  {
+    "surname": "neher",
+    "connections": ["szostak", "ramakrishnan", "greider", "molina", "wieman"]
+  },
+  {
+    "surname": "zsigmondy",
+    "connections": ["staudinger", "ruzicka", "debye", "paul", "stark"]
+  },
+  {
+    "surname": "rutherford",
+    "connections": ["macdiarmid", "soddy", "smithies", "hewish", "horvitz"]
+  },
+  {
+    "surname": "bergstrom",
+    "connections": ["elion", "varmus", "branting", "hofstadter", "oneill"]
+  },
+  {
+    "surname": "wieland",
+    "connections": ["canetti", "greider", "szostak", "ramakrishnan", "seaborg"]
+  },
+  {
+    "surname": "ertl",
+    "connections": ["smithies", "molina", "zewail", "neher", "kao"]
+  },
+  {
+    "surname": "walesa",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "lipmann",
+    "connections": ["elion", "varmus", "hofstadter", "oneill", "wiesel"]
+  },
+  {
+    "surname": "laughlin",
+    "connections": ["ginzburg", "brockhouse", "wineland", "kohn", "wieman"]
+  },
+  {
+    "surname": "harden",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "khorana",
+    "connections": ["ruzicka", "stark", "staudinger", "nirenberg", "zsigmondy"]
+  },
+  {
+    "surname": "murphy",
+    "connections": ["theiler", "murad", "rous", "erlanger", "waksman"]
+  },
+  {
+    "surname": "buck",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "kocher",
+    "connections": ["koch", "theorell", "seaborg", "natta", "taube"]
+  },
+  {
+    "surname": "kao",
+    "connections": ["zewail", "lipscomb", "mayer", "tanaka", "gabor"]
+  },
+  {
+    "surname": "mandela",
+    "connections": ["klerk", "levitt", "soyinka", "hesse", "szymborska"]
+  },
+  {
+    "surname": "karman",
+    "connections": ["rolland", "schmidt", "shechtman", "jelinek", "riess"]
+  },
+  {
+    "surname": "boyle",
+    "connections": ["mcdonald", "stormer", "kohn", "betzig", "hesse"]
+  },
+  {
+    "surname": "suzuki",
+    "connections": ["cram", "marshall", "kobayashi", "sulston", "steinman"]
+  },
+  {
+    "surname": "milstein",
+    "connections": ["akasaki", "alexievich", "koch", "bergstrom", "sulston"]
+  },
+  {
+    "surname": "lorenz",
+    "connections": ["wineland", "tanaka", "wieman", "marshall", "laughlin"]
+  },
+  {
+    "surname": "nicolle",
+    "connections": ["doherty", "warren", "sancar", "domagk", "mello"]
+  },
+  {
+    "surname": "kertesz",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "stresemann",
+    "connections": ["canetti", "hesse", "szymborska", "arnoldson", "merrifield"]
+  },
+  {
+    "surname": "sholokhov",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "betzig",
+    "connections": ["ruska", "wineland", "kohn", "laughlin", "greider"]
+  },
+  {
+    "surname": "soyinka",
+    "connections": ["canetti", "kobayashi", "townes", "aleixandre", "zewail"]
+  },
+  {
+    "surname": "stern",
+    "connections": ["schawlow", "phillips", "seaborg", "berg", "cooper"]
+  },
+  {
+    "surname": "doherty",
+    "connections": ["cram", "marshall", "molina", "zewail", "furchgott"]
+  },
+  {
+    "surname": "kornberg",
+    "connections": ["hausen", "mello", "temin", "szostak", "axel"]
+  },
+  {
+    "surname": "transtromer",
+    "connections": ["canetti", "montale", "heaney", "branting", "soddy"]
+  },
+  {
+    "surname": "braun",
+    "connections": ["seaborg", "stern", "marconi", "canetti", "hesse"]
+  },
+  {
+    "surname": "benavente",
+    "connections": ["canetti", "steitz", "hesse", "szymborska", "arnoldson"]
+  },
+  {
+    "surname": "gobat",
+    "connections": ["katz", "townes", "luria", "renault", "leloir"]
+  },
+  {
+    "surname": "chamberlain",
+    "connections": ["hesse", "szymborska", "arnoldson", "merrifield", "guillemin"]
+  },
+  {
+    "surname": "mahfouz",
+    "connections": ["steinbeck", "kipling", "pamuk", "shaw", "lessing"]
+  },
+  {
+    "surname": "wald",
+    "connections": ["seaborg", "greengard", "taube", "furchgott", "hofstadter"]
+  },
+  {
+    "surname": "zernike",
+    "connections": ["natta", "alexievich", "zewail", "seaborg", "kao"]
+  },
+  {
+    "surname": "hoffmann",
+    "connections": ["rolland", "schmidt", "shechtman", "jelinek", "riess"]
+  },
+  {
+    "surname": "martin",
+    "connections": ["canetti", "bergstrom", "sulston", "walker", "seaborg"]
+  },
+  {
+    "surname": "fitch",
+    "connections": ["canetti", "lawrence", "mello", "kroto", "reines"]
+  },
+  {
+    "surname": "modiano",
+    "connections": ["mello", "kroto", "amano", "hesse", "szymborska"]
+  },
+  {
+    "surname": "canetti",
+    "connections": ["ruska", "siegbahn", "transtromer", "giaever", "hounsfield"]
+  },
+  {
+    "surname": "cooper",
+    "connections": ["seaborg", "stern", "pamuk", "kusch", "townes"]
+  },
+  {
+    "surname": "beckett",
+    "connections": ["dale", "russell", "walton", "lippmann", "hesse"]
+  },
+  {
+    "surname": "stanley",
+    "connections": ["dawes", "taylor", "todd", "oneill", "cournand"]
+  }
+]
