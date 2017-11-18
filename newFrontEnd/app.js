@@ -1,5 +1,6 @@
 function controlFlow() {
     var person = getParameterByName("name");
+    getBio("king");
     addCard("bio");
     addText(person + "-bio.html", "#bio");
     addCard("lectureText")
@@ -18,6 +19,44 @@ function addCard(tagId) {
         "            </div>\n" +
         "          </div>");
 }
+
+function getBio(name) {
+    var file = JSON.parse(getJSON("http://api.nobelprize.org/v1/laureate.json"));
+    for (var i = 0; i < file.laureates.length; i++) {
+        var byId = file.laureates[i];
+        if (byId.surname === undefined) {
+            continue;
+        }
+        var lastName = byId.surname.toLowerCase();
+        var cleanLastName = lastName.normalize("NFKD").replace(/[^ a-z]+/g, "");
+        var lastNameArray = cleanLastName.split(" ");
+        var finalLastName = lastNameArray[lastNameArray.length - 1];
+        if (name !== finalLastName) {
+            continue;
+        }
+        // foundem
+
+    }
+
+}
+
+function getJSON(url) {
+    var resp ;
+    var xmlHttp ;
+
+    resp  = '' ;
+    xmlHttp = new XMLHttpRequest();
+
+    if(xmlHttp != null)
+    {
+        xmlHttp.open( "GET", url, false );
+        xmlHttp.send( null );
+        resp = xmlHttp.responseText;
+    }
+
+    return resp ;
+}
+
 
 
 function addText(filename, tagId) {
