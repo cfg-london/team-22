@@ -33,24 +33,15 @@ public class ServerConnection implements Runnable {
     private void interpretLine(String message) throws IOException {
         String[] components = message.split(" ");
         if (checkGetMessageFormat(components)) {
-            String queryParameter;
-            if (components[1].contains("^/")) {
-                queryParameter = components[1].substring(1, components[1].length());
-            } else {
-                queryParameter = components[1];
-            }
             String returnString = "";
-            if (queryParameter.contains(".html")) {
-                readFile(queryParameter);
+            if (components[1].contains(".html")) {
+                returnString = readFile(components[1]);
             } else {
-
-
-                ////json struff
-
-
-                outToClient.writeBytes(HTTPVersion + " 200 OK\r\n");
-                sendMessage(returnString);
+                //json stuff
             }
+            outToClient.writeBytes(HTTPVersion + " 200 OK\r\n");
+            outToClient.writeBytes("Access-Control-Allow-Origin: *\r\n");
+            sendMessage(returnString);
 
         } else {
             outToClient.writeBytes("HTTP/1.0 400 Bad Request\r\n");
@@ -87,18 +78,17 @@ public class ServerConnection implements Runnable {
         return "";
     }
 
-    private void readFile(String queryParameter) throws IOException {
+    private String readFile(String queryParameter) throws IOException {
         try {
             StringBuilder builder = new StringBuilder();
-            BufferedReader reader = new BufferedReader(new FileReader("agnon-bio.html"));
+            BufferedReader reader = new BufferedReader(new FileReader("team-22/Scraper/outLiterature" + queryParameter));
             String line;
             while ((line = reader.readLine()) != null) {
                 builder.append(line);
             }
-            System.out.println(builder.toString());
-            outToClient.writeBytes(builder.toString());
+            return builder.toString();
         } catch (FileNotFoundException e) {
-            System.out.println("File not found.");
+            return "Media type does not exist.";
         }
     }
 }
